@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/sprinkler",
+    "up": "chemically:block/conveyer",
+    "north": "chemically:block/front",
+    "east": "chemically:block/back",
+    "south": "chemically:block/front",
+    "west": "chemically:block/back",
+    "particle": "chemically:block/sprinkler"
+  },
+  "render_type": "solid"
+}

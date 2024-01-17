@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/end_stone_pillar_top",
+    "up": "chemically:block/end_stone_pillar_top",
+    "north": "chemically:block/end_stone_pillar",
+    "east": "chemically:block/end_stone_pillar",
+    "south": "chemically:block/end_stone_pillar",
+    "west": "chemically:block/end_stone_pillar",
+    "particle": "chemically:block/end_stone_pillar_top"
+  },
+  "render_type": "solid"
+}

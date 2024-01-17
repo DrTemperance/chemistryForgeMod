@@ -1,0 +1,68 @@
+{
+  "_fv": 57,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "toolupgrade_drill_fortune",
+    "customModelName": "Ranged item",
+    "customProperties": {
+      "charge": {
+        "name": "LithiumIonBatteryPropertyValueProvider"
+      }
+    },
+    "states": [],
+    "name": "Handheld LPMDS",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:Backrooms"
+    },
+    "stackSize": 1,
+    "enchantability": 12,
+    "useDuration": 16,
+    "toolType": 0.8,
+    "damageCount": 2048,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [],
+      "name": "LithiumIonBatterySpecialInformation"
+    },
+    "glowCondition": {
+      "fixedValue": false,
+      "name": "PortableLPMDSCanUseRangedItem"
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onStoppedUsing": {
+      "name": "PortableLPMDSRangedItemUsed"
+    },
+    "enableRanged": true,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:GammaRay"
+    },
+    "onRangedItemUsed": {
+      "name": "PortableLPMDSRangedItemUsed"
+    },
+    "rangedUseCondition": {
+      "name": "PortableLPMDSCanUseRangedItem"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "crossbow"
+  }
+}

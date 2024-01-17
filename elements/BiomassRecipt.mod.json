@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:minecraft:flowers"
+      },
+      {
+        "value": "TAG:minecraft:small_flowers"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:minecraft:small_flowers"
+      },
+      {
+        "value": "TAG:minecraft:flowers"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Biomass"
+    },
+    "name": "biomass_recipt",
+    "namespace": "mod"
+  }
+}

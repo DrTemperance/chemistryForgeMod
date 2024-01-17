@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Coca",
+    "splashName": "Splash Potion of Coca",
+    "lingeringName": "Lingering Potion of Coca",
+    "arrowName": "Arrow of Coca",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Garaga"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

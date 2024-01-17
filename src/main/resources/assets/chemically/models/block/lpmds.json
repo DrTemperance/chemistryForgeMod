@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/storage_steel",
+    "up": "chemically:block/storage_steel",
+    "north": "chemically:block/bigsi",
+    "east": "chemically:block/trash_side",
+    "south": "chemically:block/melter_top",
+    "west": "chemically:block/trash_side",
+    "particle": "chemically:block/back"
+  },
+  "render_type": "cutout"
+}

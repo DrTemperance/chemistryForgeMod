@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "End Sickness",
+    "icon": "endersick.png",
+    "color": {
+      "value": -12245155,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "EndSicknessOnEffectActiveTick"
+    },
+    "activeTickCondition": {
+      "name": "EndSicknessActiveTickCondition"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/back",
+    "up": "chemically:block/battery_on",
+    "north": "chemically:block/wireless_transmitter_on",
+    "east": "chemically:block/wireless_transmitter_on",
+    "south": "chemically:block/wireless_transmitter_on",
+    "west": "chemically:block/wireless_transmitter_on",
+    "particle": "chemically:block/back"
+  },
+  "render_type": "solid"
+}

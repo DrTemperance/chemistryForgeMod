@@ -1,0 +1,73 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 156,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hydraulic_press",
+          "text": {
+            "fixedValue": "Hydraulic Press"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 50
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fluidtank.png",
+          "use1Xscale": false,
+          "x": 262,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fluidinner.png",
+          "use1Xscale": false,
+          "x": 248,
+          "y": 57
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 7,
+      "sy": 7,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

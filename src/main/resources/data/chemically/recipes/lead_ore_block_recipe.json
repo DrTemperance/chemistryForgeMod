@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "chemically:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "chemically:lead_block",
+    "count": 1
+  }
+}

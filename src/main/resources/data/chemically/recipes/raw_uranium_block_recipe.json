@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    },
+    {
+      "item": "chemically:raw_uranium"
+    }
+  ],
+  "result": {
+    "item": "chemically:raw_uranium_block",
+    "count": 1
+  }
+}

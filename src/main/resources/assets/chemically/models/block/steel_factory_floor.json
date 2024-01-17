@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chemically:block/factory_floor",
+    "particle": "chemically:block/factory_floor"
+  },
+  "render_type": "solid"
+}

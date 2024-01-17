@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chemically:block/cut_laboratory_block",
+    "particle": "chemically:block/cut_laboratory_block"
+  },
+  "render_type": "solid"
+}

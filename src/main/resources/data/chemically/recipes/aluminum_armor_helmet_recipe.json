@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "chemically:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "chemically:aluminum_armor_helmet",
+    "count": 1
+  }
+}

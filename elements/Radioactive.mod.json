@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": "CUSTOM:UraniumIngot"
+      },
+      {
+        "value": "CUSTOM:UraniumOre"
+      },
+      {
+        "value": "CUSTOM:UraniumBlock"
+      },
+      {
+        "value": "CUSTOM:UraniumPickaxe"
+      },
+      {
+        "value": "CUSTOM:UraniumAxe"
+      },
+      {
+        "value": "CUSTOM:UraniumSword"
+      },
+      {
+        "value": "CUSTOM:UraniumShovel"
+      },
+      {
+        "value": "CUSTOM:UraniumHoe"
+      },
+      {
+        "value": "CUSTOM:UraniumArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:UraniumArmor.body"
+      },
+      {
+        "value": "CUSTOM:UraniumArmor.legs"
+      },
+      {
+        "value": "CUSTOM:UraniumArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "radioactive",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "chemically:custom/hydraulicpress",
+  "textures": {
+    "all": "chemically:block/press",
+    "particle": "chemically:block/back",
+    "0": "chemically:block/press"
+  },
+  "render_type": "solid"
+}

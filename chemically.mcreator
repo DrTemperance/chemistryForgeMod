@@ -1,0 +1,6233 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gasses",
+      "type": "tab",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasses",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/GUIs and such"
+    },
+    {
+      "name": "Liquids",
+      "type": "tab",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquids",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/GUIs and such"
+    },
+    {
+      "name": "Solids",
+      "type": "tab",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solids",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/GUIs and such"
+    },
+    {
+      "name": "ModMisc",
+      "type": "tab",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_misc",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/GUIs and such"
+    },
+    {
+      "name": "GasCylinder",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_cylinder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/gas_cylinder.json",
+          "src/main/java/net/mcreator/chemically/item/GasCylinderItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Hydrogen",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/hydrogen.json",
+          "src/main/java/net/mcreator/chemically/item/HydrogenItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeeGrowableBlocks",
+      "type": "tag",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_growable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/bee_growables.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_spawn_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/valid_spawn.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ImpermeableBlocks",
+      "type": "tag",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impermeable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/impermeable.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ClimbableBlocks",
+      "type": "tag",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/climbable.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FireBlocks",
+      "type": "tag",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fire.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "AnimalsSpawnableOnBlocks",
+      "type": "tag",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animals_spawnable_on_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/animals_spawnable_on.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "PreventMobSpawningInsideBlocks",
+      "type": "tag",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_mob_spawning_inside_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/prevent_mob_spawning_inside.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/arrows.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/arrows.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_projectile_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/impact_projectiles.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeehiveInhabitorEntities",
+      "type": "tag",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beehive_inhabitor_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/beehive_inhabitors.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/raiders.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SkeletonEntities",
+      "type": "tag",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/skeletons.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsOverworldBiomes",
+      "type": "tag",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_overworld_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsNetherBiomes",
+      "type": "tag",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_nether_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_nether.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsEndBiomes",
+      "type": "tag",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_end_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/load.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsFreezingDamageTypes",
+      "type": "tag",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_freezing_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/is_freezing.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsProjectileDamageTypes",
+      "type": "tag",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_projectile_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/is_projectile.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BypassesArmorDamageTypes",
+      "type": "tag",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_armor_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_armor.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BypassesCooldownDamageTypes",
+      "type": "tag",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_cooldown_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_cooldown.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BypassesEffectDamageTypes",
+      "type": "tag",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_effect_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_effects.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BypassesEnchantmentDamageTypes",
+      "type": "tag",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_enchantment_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_enchantments.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BypassesShieldDamageTypes",
+      "type": "tag",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bypasses_shield_damage_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/damage_type/bypasses_shield.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Cylcraf",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cylcraf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/cylcraf.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HydrogenPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogen_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/HydrogenPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Beaker",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/beaker.json",
+          "src/main/java/net/mcreator/chemically/item/BeakerItem.java"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeakerSpecialInformation",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_special_information",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/BeakerSpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BeakerItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/BeakerItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BeakerRightclicked",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/BeakerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Radioactive",
+      "type": "tag",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/radioactive.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ButtonItems",
+      "type": "tag",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/tags/items/button_items.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "RadioactiveDamage",
+      "type": "gamerule",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_damage",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Flask",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/FlaskItem.java",
+          "src/main/resources/assets/chemically/models/item/flask.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "BeakerRec",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/beaker_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlaskRec",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flask_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/flask_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "InitiateRadio",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "initiate_radio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/InitiateRadioProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GammaRay",
+      "type": "projectile",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamma_ray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/entity/GammaRayEntity.java",
+          "src/main/java/net/mcreator/chemically/client/renderer/GammaRayRenderer.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "GammaRayProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamma_ray_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/GammaRayProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Radiation",
+      "type": "damagetype",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/damage_type/radiation.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "GammaRayProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamma_ray_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/GammaRayProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Conveyer",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/conveyer.json",
+          "src/main/resources/assets/chemically/models/item/conveyer.json",
+          "src/main/java/net/mcreator/chemically/block/ConveyerBlock.java",
+          "src/main/java/net/mcreator/chemically/block/entity/ConveyerBlockEntity.java",
+          "src/main/resources/assets/chemically/models/block/conveyer.json"
+        ]
+      }
+    },
+    {
+      "name": "PolarityDevice",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polarity_device",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/polarity_device.json",
+          "src/main/resources/assets/chemically/blockstates/polarity_device.json",
+          "src/main/java/net/mcreator/chemically/block/PolarityDeviceBlock.java",
+          "src/main/resources/assets/chemically/models/block/polarity_device.json"
+        ]
+      }
+    },
+    {
+      "name": "ConveyerEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyer_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/ConveyerEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Adhesive",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adhesive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AdhesiveItem.java",
+          "src/main/resources/assets/chemically/models/item/adhesive.json"
+        ]
+      }
+    },
+    {
+      "name": "AdhesRec",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adhes_rec",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/recipes/brewing/AdhesRecBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ConveyRec",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "convey_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/convey_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MaxConveyer",
+      "type": "achievement",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_conveyer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/advancements/max_conveyer.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LoadInWithMod",
+      "type": "achievement",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_in_with_mod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/advancements/load_in_with_mod.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Wrench",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/WrenchItem.java",
+          "src/main/resources/assets/chemically/models/item/wrench.json"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "WrenchRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/WrenchRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CopperRod",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CopperRodItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/IronRodItem.java",
+          "src/main/resources/assets/chemically/models/item/iron_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "NickelRod",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/NickelRodItem.java",
+          "src/main/resources/assets/chemically/models/item/nickel_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperWire",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CopperWireItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_wire.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneWire",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_wire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/redstone_wire.json",
+          "src/main/java/net/mcreator/chemically/item/RedstoneWireItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelWireSpool",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_wire_spool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/steel_wire_spool.json",
+          "src/main/java/net/mcreator/chemically/item/SteelWireSpoolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperWireRec",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_wire_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/SteelIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/steel_ingot.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "SteelWireREc",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_wire_r_ec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/steel_wire_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CompoundsAndAlloys",
+      "type": "tab",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compounds_and_alloys",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/GUIs and such"
+    },
+    {
+      "name": "Wires",
+      "type": "tag",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wires",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/tags/items/wires.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Rods",
+      "type": "tag",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/tags/items/rods.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WrenchRec",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/wrench_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RedstoneWireRec",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_wire_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/redstone_wire_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ReinforcedStick",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/ReinforcedStickItem.java",
+          "src/main/resources/assets/chemically/models/item/reinforced_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinStickRec",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rein_stick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/rein_stick_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Synchrotron",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synchrotron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/SynchrotronItem.java",
+          "src/main/resources/assets/chemically/models/item/synchrotron.json"
+        ]
+      }
+    },
+    {
+      "name": "LithiumIonBattery",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ion_battery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/LithiumIonBatteryItem.java",
+          "src/main/resources/assets/chemically/models/item/lithium_ion_battery.json"
+        ]
+      }
+    },
+    {
+      "name": "LithiumIonBatterySpecialInformation",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ion_battery_special_information",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/LithiumIonBatterySpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BeakerPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/BeakerPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LithiumIonBatteryPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ion_battery_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/LithiumIonBatteryPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LithiumIonBatteryItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ion_battery_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/LithiumIonBatteryItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LithiumIonBatteryRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ion_battery_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/LithiumIonBatteryRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ElementHandler",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_handler1",
+      "metadata": {
+        "return_type": "itemstack",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/ElementHandlerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BeakerPropertyValueProvider2",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_property_value_provider_2",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/BeakerPropertyValueProvider2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BeakerPropertyValueProvider3",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_property_value_provider_3",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/BeakerPropertyValueProvider3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BeakerItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaker_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/BeakerItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "InverseElementHandler",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inverse_element_handler",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/InverseElementHandlerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PowerCell",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/power_cell.json",
+          "src/main/java/net/mcreator/chemically/block/entity/PowerCellBlockEntity.java",
+          "src/main/java/net/mcreator/chemically/block/PowerCellBlock.java",
+          "src/main/resources/assets/chemically/models/item/power_cell.json",
+          "src/main/resources/assets/chemically/blockstates/power_cell.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerCellUpdateTick",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/PowerCellUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PowerCellRedstoneOn",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/PowerCellRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PowerCellRedstoneOff",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_cell_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/PowerCellRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ElectromagneticFieldGenerator",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electromagnetic_field_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/ElectromagneticFieldGeneratorBlock.java",
+          "src/main/resources/assets/chemically/models/block/electromagnetic_field_generator.json",
+          "src/main/resources/assets/chemically/blockstates/electromagnetic_field_generator.json",
+          "src/main/resources/assets/chemically/models/item/electromagnetic_field_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "Lpmds",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lpmds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/entity/LpmdsBlockEntity.java",
+          "src/main/resources/assets/chemically/models/item/lpmds.json",
+          "src/main/resources/assets/chemically/models/block/lpmds.json",
+          "src/main/resources/assets/chemically/blockstates/lpmds.json",
+          "src/main/java/net/mcreator/chemically/block/LpmdsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NanophotonicElectronAccelerator",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanophotonic_electron_accelerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/NanophotonicElectronAcceleratorItem.java",
+          "src/main/resources/assets/chemically/models/item/nanophotonic_electron_accelerator.json"
+        ]
+      }
+    },
+    {
+      "name": "SuperconductiveMagnet",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superconductive_magnet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/superconductive_magnet.json",
+          "src/main/java/net/mcreator/chemically/block/SuperconductiveMagnetBlock.java",
+          "src/main/resources/assets/chemically/models/block/superconductive_magnet.json",
+          "src/main/resources/assets/chemically/blockstates/superconductive_magnet.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RFCavityResonator",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rf_cavity_resonator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/rf_cavity_resonator.json",
+          "src/main/java/net/mcreator/chemically/block/RFCavityResonatorBlock.java",
+          "src/main/resources/assets/chemically/models/item/rf_cavity_resonator.json",
+          "src/main/resources/assets/chemically/models/block/rf_cavity_resonator.json"
+        ]
+      }
+    },
+    {
+      "name": "ThresholdStructureBlock",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threshold_structure_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/threshold_structure_block.json",
+          "src/main/java/net/mcreator/chemically/block/ThresholdStructureBlockBlock.java",
+          "src/main/resources/assets/chemically/models/item/threshold_structure_block.json",
+          "src/main/resources/assets/chemically/blockstates/threshold_structure_block.json"
+        ]
+      }
+    },
+    {
+      "name": "HighVelocityRotor",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_velocity_rotor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/high_velocity_rotor.json",
+          "src/main/resources/assets/chemically/models/item/high_velocity_rotor.json",
+          "src/main/resources/assets/chemically/blockstates/high_velocity_rotor.json",
+          "src/main/java/net/mcreator/chemically/block/HighVelocityRotorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PortableLPMDS",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_lpmds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/portable_lpmds.json",
+          "src/main/java/net/mcreator/chemically/item/PortableLPMDSItem.java"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "PortableLPMDSRangedItemUsed",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_lpmds_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/PortableLPMDSRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PortableLPMDSCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_lpmds_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/PortableLPMDSCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FaradayArmor",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faraday_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/faraday_armor_chestplate.json",
+          "src/main/resources/assets/chemically/models/item/faraday_armor_helmet.json",
+          "src/main/resources/assets/chemically/models/item/faraday_armor_boots.json",
+          "src/main/resources/assets/chemically/models/item/faraday_armor_leggings.json",
+          "src/main/java/net/mcreator/chemically/item/FaradayArmorItem.java"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "Steel",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/steel_boots.json",
+          "src/main/java/net/mcreator/chemically/item/SteelItem.java",
+          "src/main/resources/assets/chemically/models/item/steel_helmet.json",
+          "src/main/resources/assets/chemically/models/item/steel_leggings.json",
+          "src/main/resources/assets/chemically/models/item/steel_chestplate.json"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "SinusoidalWave",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sinusoidal_wave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/SinusoidalWaveBlock.java",
+          "src/main/java/net/mcreator/chemically/block/entity/SinusoidalWaveBlockEntity.java",
+          "src/main/resources/assets/chemically/models/item/sinusoidal_wave.json",
+          "src/main/resources/assets/chemically/models/block/sinusoidal_wave.json",
+          "src/main/resources/assets/chemically/blockstates/sinusoidal_wave.json"
+        ]
+      }
+    },
+    {
+      "name": "SinusoidalWaveUpdateTick",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sinusoidal_wave_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/SinusoidalWaveUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Adwe",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adwe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/AdweProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Garaga",
+      "type": "potioneffect",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coca_high",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/potion/GaragaMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Coca",
+      "type": "potion",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coca",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_ingot.json",
+          "src/main/java/net/mcreator/chemically/item/UraniumIngotItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_ore.json",
+          "src/main/resources/data/chemically/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/assets/chemically/models/block/uranium_ore.json",
+          "src/main/java/net/mcreator/chemically/block/UraniumOreBlock.java",
+          "src/main/resources/data/chemically/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/assets/chemically/blockstates/uranium_ore.json",
+          "src/main/resources/data/chemically/worldgen/configured_feature/uranium_ore.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_block.json",
+          "src/main/resources/assets/chemically/blockstates/uranium_block.json",
+          "src/main/java/net/mcreator/chemically/block/UraniumBlockBlock.java",
+          "src/main/resources/assets/chemically/models/block/uranium_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "UraniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumPickaxe",
+      "type": "tool",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_pickaxe.json",
+          "src/main/java/net/mcreator/chemically/item/UraniumPickaxeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "UraniumAxe",
+      "type": "tool",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_axe.json",
+          "src/main/java/net/mcreator/chemically/item/UraniumAxeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "UraniumSword",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_sword.json",
+          "src/main/java/net/mcreator/chemically/item/UraniumSwordItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "UraniumShovel",
+      "type": "tool",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_shovel.json",
+          "src/main/java/net/mcreator/chemically/item/UraniumShovelItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "UraniumHoe",
+      "type": "tool",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/uranium_hoe.json",
+          "src/main/java/net/mcreator/chemically/item/UraniumHoeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "UraniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumArmor",
+      "type": "armor",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/UraniumArmorItem.java",
+          "src/main/resources/assets/chemically/models/item/uranium_armor_chestplate.json",
+          "src/main/resources/assets/chemically/models/item/uranium_armor_boots.json",
+          "src/main/resources/assets/chemically/models/item/uranium_armor_helmet.json",
+          "src/main/resources/assets/chemically/models/item/uranium_armor_leggings.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "UraniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CopperArmorItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_armor_chestplate.json",
+          "src/main/resources/assets/chemically/models/item/copper_armor_boots.json",
+          "src/main/resources/assets/chemically/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/chemically/models/item/copper_armor_leggings.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "CopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CopperPickaxeItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_pickaxe.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/copper_axe.json",
+          "src/main/java/net/mcreator/chemically/item/CopperAxeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CopperSwordItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_sword.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CopperShovelItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_shovel.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/copper_hoe.json",
+          "src/main/java/net/mcreator/chemically/item/CopperHoeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CircuitBoard",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circuit_board",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CircuitBoardItem.java",
+          "src/main/resources/assets/chemically/models/item/circuit_board.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/lead_ingot.json",
+          "src/main/java/net/mcreator/chemically/item/LeadIngotItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/lead_ore.json",
+          "src/main/resources/data/chemically/worldgen/configured_feature/lead_ore.json",
+          "src/main/resources/data/chemically/worldgen/placed_feature/lead_ore.json",
+          "src/main/resources/assets/chemically/models/block/lead_ore.json",
+          "src/main/java/net/mcreator/chemically/block/LeadOreBlock.java",
+          "src/main/resources/assets/chemically/blockstates/lead_ore.json",
+          "src/main/resources/data/chemically/forge/biome_modifier/lead_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "LeadBlock",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/lead_block.json",
+          "src/main/resources/assets/chemically/blockstates/lead_block.json",
+          "src/main/resources/assets/chemically/models/block/lead_block.json",
+          "src/main/java/net/mcreator/chemically/block/LeadBlockBlock.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "LeadOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadOreSmelting",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_ore_smelting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadPickaxe",
+      "type": "tool",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/LeadPickaxeItem.java",
+          "src/main/resources/assets/chemically/models/item/lead_pickaxe.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "LeadAxe",
+      "type": "tool",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/lead_axe.json",
+          "src/main/java/net/mcreator/chemically/item/LeadAxeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "LeadSword",
+      "type": "tool",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/LeadSwordItem.java",
+          "src/main/resources/assets/chemically/models/item/lead_sword.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "LeadShovel",
+      "type": "tool",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/lead_shovel.json",
+          "src/main/java/net/mcreator/chemically/item/LeadShovelItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "LeadHoe",
+      "type": "tool",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/lead_hoe.json",
+          "src/main/java/net/mcreator/chemically/item/LeadHoeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "LeadPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadAxeRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadSwordRecipe",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadShovelRecipe",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadHoeRecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadArmor",
+      "type": "armor",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/lead_armor_helmet.json",
+          "src/main/resources/assets/chemically/models/item/lead_armor_leggings.json",
+          "src/main/resources/assets/chemically/models/item/lead_armor_chestplate.json",
+          "src/main/java/net/mcreator/chemically/item/LeadArmorItem.java",
+          "src/main/resources/assets/chemically/models/item/lead_armor_boots.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "LeadArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeadArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lead_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawUranium",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/RawUraniumItem.java",
+          "src/main/resources/assets/chemically/models/item/raw_uranium.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "UraniumSmelt",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/uranium_smelt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UraniumDeepslateOre",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_deepslate_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/uranium_deepslate_ore.json",
+          "src/main/resources/data/chemically/worldgen/configured_feature/uranium_deepslate_ore.json",
+          "src/main/resources/assets/chemically/models/item/uranium_deepslate_ore.json",
+          "src/main/java/net/mcreator/chemically/block/UraniumDeepslateOreBlock.java",
+          "src/main/resources/data/chemically/forge/biome_modifier/uranium_deepslate_ore_biome_modifier.json",
+          "src/main/resources/data/chemically/worldgen/placed_feature/uranium_deepslate_ore.json",
+          "src/main/resources/assets/chemically/models/block/uranium_deepslate_ore.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawUraniumBlock",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/RawUraniumBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/raw_uranium_block.json",
+          "src/main/resources/assets/chemically/models/item/raw_uranium_block.json",
+          "src/main/resources/assets/chemically/models/block/raw_uranium_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawUraniumBlockRecipe",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/raw_uranium_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawUraniumBlockToRaw",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium_block_to_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/raw_uranium_block_to_raw.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperRodRec",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_rod_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/copper_rod_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronRodRec",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/iron_rod_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HydraulicPress",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydraulic_press",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/hydraulic_press.json",
+          "src/main/resources/assets/chemically/models/block/hydraulic_press.json",
+          "src/main/java/net/mcreator/chemically/block/HydraulicPressBlock.java",
+          "src/main/resources/assets/chemically/models/item/hydraulic_press.json",
+          "src/main/java/net/mcreator/chemically/block/entity/HydraulicPressBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HydraulicPressOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydraulic_press_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/HydraulicPressOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HydraulicPressEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydraulic_press_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/HydraulicPressEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MetallicPress",
+      "type": "tag",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metallic_press",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/metallic_press.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "OrganicPress",
+      "type": "tag",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "organic_press",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/organic_press.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "HydraulicPressGUI",
+      "type": "gui",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydraulic_press_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/client/gui/HydraulicPressGUIScreen.java",
+          "src/main/java/net/mcreator/chemically/world/inventory/HydraulicPressGUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs and such"
+    },
+    {
+      "name": "Accelerator",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accelerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/entity/AcceleratorBlockEntity.java",
+          "src/main/resources/assets/chemically/models/item/accelerator.json",
+          "src/main/resources/assets/chemically/blockstates/accelerator.json",
+          "src/main/java/net/mcreator/chemically/block/AcceleratorBlock.java",
+          "src/main/resources/assets/chemically/models/block/accelerator.json"
+        ]
+      }
+    },
+    {
+      "name": "CryoShot",
+      "type": "projectile",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/entity/CryoShotEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CryoShotProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_shot_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/CryoShotProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CryoShotProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_shot_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/CryoShotProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CryoShotProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_shot_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/CryoShotProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LpmdsRedstoneOn",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lpmds_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/LpmdsRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AcceleratorEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accelerator_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/AcceleratorEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "QuartzLamp",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/quartz_lamp.json",
+          "src/main/resources/assets/chemically/models/item/quartz_lamp.json",
+          "src/main/resources/assets/chemically/blockstates/quartz_lamp.json",
+          "src/main/java/net/mcreator/chemically/block/QuartzLampBlock.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "QuartzLampActive",
+      "type": "block",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_lamp_active",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/quartz_lamp_active.json",
+          "src/main/resources/assets/chemically/models/block/quartz_lamp_active.json",
+          "src/main/java/net/mcreator/chemically/block/QuartzLampActiveBlock.java",
+          "src/main/resources/assets/chemically/models/item/quartz_lamp_active.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzLampRedstoneOn",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_lamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/QuartzLampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "QuartzLampActiveRedstoneOff",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_lamp_active_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/QuartzLampActiveRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PowderedRedstine",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powdered_redstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/powdered_redstone.json",
+          "src/main/java/net/mcreator/chemically/block/PowderedRedstineBlock.java",
+          "src/main/resources/assets/chemically/models/item/powdered_redstone.json",
+          "src/main/resources/assets/chemically/models/block/powdered_redstone.json"
+        ]
+      }
+    },
+    {
+      "name": "Redstine",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/redstine.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SuperconductiveMagnetUpdateTick",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superconductive_magnet_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/SuperconductiveMagnetUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SuperconductiveMagnetUpdateTick1",
+      "type": "procedure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superconductive_magnet_update_tick_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/SuperconductiveMagnetUpdateTick1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Ferromagnetic",
+      "type": "tag",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferromagnetic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/tags/blocks/ferromagnetic.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "GravityGun",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/gravity_gun.json",
+          "src/main/resources/assets/chemically/models/item/gravity_gun_0.json",
+          "src/main/java/net/mcreator/chemically/item/GravityGunItem.java"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "GravityGunRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_gun_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/GravityGunRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GravityGunPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_gun_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/GravityGunPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GravityGunItemInHandTick",
+      "type": "procedure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_gun_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/GravityGunItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GravityGunRightclicked",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_gun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/GravityGunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GravityGunItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_gun_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/GravityGunItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Dna",
+      "type": "particle",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/particles/dna.json",
+          "src/main/java/net/mcreator/chemically/client/particle/DnaParticle.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Cockroach",
+      "type": "livingentity",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cockroach",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/cockroach_spawn_egg.json",
+          "src/main/java/net/mcreator/chemically/client/renderer/CockroachRenderer.java",
+          "src/main/java/net/mcreator/chemically/entity/CockroachEntity.java",
+          "src/main/resources/data/chemically/forge/biome_modifier/cockroach_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CockroachWing",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cockroach_wing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CockroachWingItem.java",
+          "src/main/resources/assets/chemically/models/item/cockroach_wing.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSickness",
+      "type": "potioneffect",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_sickness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/potion/EndSicknessMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "EndSicknessActiveTickCondition",
+      "type": "procedure",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_sickness_active_tick_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/EndSicknessActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndSicknessOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_sickness_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/EndSicknessOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RadiationSickness",
+      "type": "potioneffect",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_sickness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/potion/RadiationSicknessMobEffect.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Everything",
+      "type": "musicdisc",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everything",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/EverythingItem.java",
+          "src/main/resources/assets/chemically/models/item/everything.json"
+        ]
+      }
+    },
+    {
+      "name": "TimeCrystalBlock",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_crystal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/time_crystal_block.json",
+          "src/main/resources/assets/chemically/models/item/time_crystal_block.json",
+          "src/main/java/net/mcreator/chemically/block/TimeCrystalBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/time_crystal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TimeCrystal",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/time_crystal.json",
+          "src/main/java/net/mcreator/chemically/item/TimeCrystalItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TemporalLamp",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temporal_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/temporal_lamp.json",
+          "src/main/resources/assets/chemically/models/item/temporal_lamp.json",
+          "src/main/resources/assets/chemically/blockstates/temporal_lamp.json",
+          "src/main/java/net/mcreator/chemically/block/TemporalLampBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledPurpur",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_purpur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/chiseled_purpur.json",
+          "src/main/resources/assets/chemically/models/block/chiseled_purpur.json",
+          "src/main/java/net/mcreator/chemically/block/ChiseledPurpurBlock.java",
+          "src/main/resources/assets/chemically/blockstates/chiseled_purpur.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidionBricks",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/ObsidionBricksBlock.java",
+          "src/main/resources/assets/chemically/blockstates/obsidian_bricks.json",
+          "src/main/resources/assets/chemically/models/block/obsidian_bricks.json",
+          "src/main/resources/assets/chemically/models/item/obsidian_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianTiles",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/obsidian_tiles.json",
+          "src/main/resources/assets/chemically/models/item/obsidian_tiles.json",
+          "src/main/java/net/mcreator/chemically/block/ObsidianTilesBlock.java",
+          "src/main/resources/assets/chemically/models/block/obsidian_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateSquares",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_squares",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/DeepslateSquaresBlock.java",
+          "src/main/resources/assets/chemically/blockstates/deepslate_squares.json",
+          "src/main/resources/assets/chemically/models/item/deepslate_squares.json",
+          "src/main/resources/assets/chemically/models/block/deepslate_squares.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedEndstone",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_endstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/PolishedEndstoneBlock.java",
+          "src/main/resources/assets/chemically/models/block/polished_endstone.json",
+          "src/main/resources/assets/chemically/blockstates/polished_endstone.json",
+          "src/main/resources/assets/chemically/models/item/polished_endstone.json"
+        ]
+      }
+    },
+    {
+      "name": "EndstonePillar",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/endstone_pillar.json",
+          "src/main/resources/assets/chemically/blockstates/endstone_pillar.json",
+          "src/main/java/net/mcreator/chemically/block/EndstonePillarBlock.java",
+          "src/main/resources/assets/chemically/models/block/endstone_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneFireTrap",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_fire_trap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/sandstone_fire_trap.json",
+          "src/main/resources/assets/chemically/models/item/sandstone_fire_trap.json",
+          "src/main/resources/assets/chemically/models/block/sandstone_fire_trap.json",
+          "src/main/java/net/mcreator/chemically/block/SandstoneFireTrapBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneFireTrapIgnited",
+      "type": "block",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_fire_trap_ignited",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/sandstone_fire_trap_ignited.json",
+          "src/main/resources/assets/chemically/models/block/sandstone_fire_trap_ignited.json",
+          "src/main/java/net/mcreator/chemically/block/SandstoneFireTrapIgnitedBlock.java",
+          "src/main/resources/assets/chemically/models/item/sandstone_fire_trap_ignited.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneFireTrapIgnitedRedstoneOff",
+      "type": "procedure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_fire_trap_ignited_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/SandstoneFireTrapIgnitedRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WrenchRightclickedOnBlockFixed",
+      "type": "procedure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_rightclicked_on_block_fixed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/WrenchRightclickedOnBlockFixedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Witherite",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/witherite.json",
+          "src/main/resources/assets/chemically/models/item/witherite.json",
+          "src/main/java/net/mcreator/chemically/block/WitheriteBlock.java",
+          "src/main/resources/assets/chemically/models/block/witherite.json"
+        ]
+      }
+    },
+    {
+      "name": "RawLead",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_lead_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/raw_lead_block.json",
+          "src/main/resources/assets/chemically/models/block/raw_lead_block.json",
+          "src/main/java/net/mcreator/chemically/block/RawLeadBlock.java",
+          "src/main/resources/assets/chemically/blockstates/raw_lead_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawNickel",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/RawNickelBlock.java",
+          "src/main/resources/assets/chemically/models/item/raw_nickel_block.json",
+          "src/main/resources/assets/chemically/blockstates/raw_nickel_block.json",
+          "src/main/resources/assets/chemically/models/block/raw_nickel_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawSilverBlock",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/raw_silver_block.json",
+          "src/main/java/net/mcreator/chemically/block/RawSilverBlockBlock.java",
+          "src/main/resources/assets/chemically/models/item/raw_silver_block.json",
+          "src/main/resources/assets/chemically/blockstates/raw_silver_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "ChiseledStoneBrickPillar",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_stone_brick_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/ChiseledStoneBrickPillarBlock.java",
+          "src/main/resources/assets/chemically/models/block/chiseled_stone_brick_pillar.json",
+          "src/main/resources/assets/chemically/models/item/chiseled_stone_brick_pillar.json",
+          "src/main/resources/assets/chemically/blockstates/chiseled_stone_brick_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneFireTrapIgnitedUpdateTick",
+      "type": "procedure",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_fire_trap_ignited_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/SandstoneFireTrapIgnitedUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SandstoneFireTrapRedstoneOn",
+      "type": "procedure",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_fire_trap_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/SandstoneFireTrapRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ObsidianRunes",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_runes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/obsidian_runes.json",
+          "src/main/java/net/mcreator/chemically/block/ObsidianRunesBlock.java",
+          "src/main/resources/assets/chemically/blockstates/obsidian_runes.json",
+          "src/main/resources/assets/chemically/models/block/obsidian_runes.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneTiles",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/stone_tiles.json",
+          "src/main/resources/assets/chemically/models/item/stone_tiles.json",
+          "src/main/java/net/mcreator/chemically/block/StoneTilesBlock.java",
+          "src/main/resources/assets/chemically/models/block/stone_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "StonePillar",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/stone_pillar.json",
+          "src/main/java/net/mcreator/chemically/block/StonePillarBlock.java",
+          "src/main/resources/assets/chemically/models/block/stone_pillar.json",
+          "src/main/resources/assets/chemically/blockstates/stone_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "Asbestos",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asbestos",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/asbestos.json",
+          "src/main/java/net/mcreator/chemically/block/AsbestosBlock.java",
+          "src/main/resources/assets/chemically/blockstates/asbestos.json",
+          "src/main/resources/assets/chemically/models/block/asbestos.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "ChiseledEndstone",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_endstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/chiseled_endstone.json",
+          "src/main/java/net/mcreator/chemically/block/ChiseledEndstoneBlock.java",
+          "src/main/resources/assets/chemically/models/item/chiseled_endstone.json",
+          "src/main/resources/assets/chemically/models/block/chiseled_endstone.json"
+        ]
+      }
+    },
+    {
+      "name": "RawAluminumBlock",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminum_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/RawAluminumBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/raw_aluminum_block.json",
+          "src/main/resources/assets/chemically/models/block/raw_aluminum_block.json",
+          "src/main/resources/assets/chemically/models/item/raw_aluminum_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "WitheriteIngot",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/WitheriteIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/witherite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "LightBulb",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_bulb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/LightBulbItem.java",
+          "src/main/resources/assets/chemically/models/item/light_bulb.json"
+        ]
+      }
+    },
+    {
+      "name": "PolyvinylChloride",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polyvinyl_chloride",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/PolyvinylChlorideItem.java",
+          "src/main/resources/assets/chemically/models/item/polyvinyl_chloride.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Antenna",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antenna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/antenna.json",
+          "src/main/java/net/mcreator/chemically/item/AntennaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rubber",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/RubberItem.java",
+          "src/main/resources/assets/chemically/models/item/rubber.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Sulfur",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/SulfurItem.java",
+          "src/main/resources/assets/chemically/models/item/sulfur.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "LogicCircuit",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logic_circuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/LogicCircuitItem.java",
+          "src/main/resources/assets/chemically/models/item/logic_circuit.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedLogicCircuit",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_logic_circuit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/advanced_logic_circuit.json",
+          "src/main/java/net/mcreator/chemically/item/AdvancedLogicCircuitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedComputationCircuit",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_computation_circuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AdvancedComputationCircuitItem.java",
+          "src/main/resources/assets/chemically/models/item/advanced_computation_circuit.json"
+        ]
+      }
+    },
+    {
+      "name": "Servo",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "servo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/servo.json",
+          "src/main/java/net/mcreator/chemically/item/ServoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FuelCanister",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_canister",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/FuelCanisterItem.java",
+          "src/main/resources/assets/chemically/models/item/fuel_canister.json"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "FuelCanisterPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_canister_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/FuelCanisterPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FuelCanisterSpecialInformation",
+      "type": "procedure",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_canister_special_information",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/FuelCanisterSpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FuelCanisterItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_canister_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/FuelCanisterItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LaunchPad",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/launch_pad.json",
+          "src/main/resources/assets/chemically/blockstates/launch_pad.json",
+          "src/main/resources/assets/chemically/models/block/launch_pad.json",
+          "src/main/java/net/mcreator/chemically/block/LaunchPadBlock.java",
+          "src/main/java/net/mcreator/chemically/block/entity/LaunchPadBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/LaunchPadEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ConveyerEntityWalksOnTheBlockFixed",
+      "type": "procedure",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyer_entity_walks_on_the_block_fixed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/ConveyerEntityWalksOnTheBlockFixedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PurpleTulip",
+      "type": "plant",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_tulip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/forge/biome_modifier/purple_tulip_biome_modifier.json",
+          "src/main/resources/assets/chemically/models/block/purple_tulip.json",
+          "src/main/resources/assets/chemically/models/item/purple_tulip.json",
+          "src/main/resources/data/chemically/worldgen/placed_feature/purple_tulip.json",
+          "src/main/java/net/mcreator/chemically/block/PurpleTulipBlock.java",
+          "src/main/resources/assets/chemically/blockstates/purple_tulip.json",
+          "src/main/resources/data/chemically/worldgen/configured_feature/purple_tulip.json"
+        ]
+      }
+    },
+    {
+      "name": "Backrooms",
+      "type": "tab",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/GUIs and such"
+    },
+    {
+      "name": "SteelRod",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/steel_rod.json",
+          "src/main/java/net/mcreator/chemically/item/SteelRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NickelIngot",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/nickel_ingot.json",
+          "src/main/java/net/mcreator/chemically/item/NickelIngotItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawNickelItem",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/RawNickelItemItem.java",
+          "src/main/resources/assets/chemically/models/item/raw_nickel_item.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RNickelBlock",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_nickel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/r_nickel_block.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RNickelToItem",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_nickel_to_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/r_nickel_to_item.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/SilverIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/silver_ingot.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/RawSilverItem.java",
+          "src/main/resources/assets/chemically/models/item/raw_silver.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawLeadItem",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_lead_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/raw_lead_item.json",
+          "src/main/java/net/mcreator/chemically/item/RawLeadItemItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "AluminumIngot",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AluminumIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminum_ingot.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RawAluminum",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/raw_aluminum.json",
+          "src/main/java/net/mcreator/chemically/item/RawAluminumItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "AluminumPickaxe",
+      "type": "tool",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/aluminum_pickaxe.json",
+          "src/main/java/net/mcreator/chemically/item/AluminumPickaxeItem.java"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "AluminumAxe",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AluminumAxeItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminum_axe.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "AluminumSword",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AluminumSwordItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminum_sword.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "AluminumShovel",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AluminumShovelItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminum_shovel.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "AluminumHoe",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AluminumHoeItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminum_hoe.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "AluminumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumAxeRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumSwordRecipe",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumShovelRecipe",
+      "type": "recipe",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumHoeRecipe",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumArmor",
+      "type": "armor",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/aluminum_armor_leggings.json",
+          "src/main/java/net/mcreator/chemically/item/AluminumArmorItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminum_armor_chestplate.json",
+          "src/main/resources/assets/chemically/models/item/aluminum_armor_boots.json",
+          "src/main/resources/assets/chemically/models/item/aluminum_armor_helmet.json"
+        ]
+      },
+      "path": "~/Filler Tools"
+    },
+    {
+      "name": "AluminumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/aluminum_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Capacitor",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/CapacitorItem.java",
+          "src/main/resources/assets/chemically/models/item/capacitor.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/silver_block.json",
+          "src/main/resources/assets/chemically/models/block/silver_block.json",
+          "src/main/resources/assets/chemically/models/item/silver_block.json",
+          "src/main/java/net/mcreator/chemically/block/SilverBlockBlock.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Saltpeter",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saltpeter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/saltpeter.json",
+          "src/main/java/net/mcreator/chemically/item/SaltpeterItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "FuelCanisterItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_canister_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/FuelCanisterItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FuelCanisterRecipt",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_canister_recipt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/fuel_canister_recipt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AntennaRecipt",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antenna_recipt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/antenna_recipt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AluminumBlock",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/aluminum_block.json",
+          "src/main/resources/assets/chemically/blockstates/aluminum_block.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_block.json",
+          "src/main/java/net/mcreator/chemically/block/AluminumBlockBlock.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "AquamarineBlock",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/AquamarineBlockBlock.java",
+          "src/main/resources/assets/chemically/models/item/aquamarine_block.json",
+          "src/main/resources/assets/chemically/blockstates/aquamarine_block.json",
+          "src/main/resources/assets/chemically/models/block/aquamarine_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Aquamarine",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/AquamarineItem.java",
+          "src/main/resources/assets/chemically/models/item/aquamarine.json"
+        ]
+      }
+    },
+    {
+      "name": "Asphalt",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/AsphaltBlock.java",
+          "src/main/resources/assets/chemically/blockstates/asphalt.json",
+          "src/main/resources/assets/chemically/models/item/asphalt.json",
+          "src/main/resources/assets/chemically/models/block/asphalt.json"
+        ]
+      }
+    },
+    {
+      "name": "Jade",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/JadeItem.java",
+          "src/main/resources/assets/chemically/models/item/jade.json"
+        ]
+      }
+    },
+    {
+      "name": "JadeBlock",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/JadeBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/jade_block.json",
+          "src/main/resources/assets/chemically/models/item/jade_block.json",
+          "src/main/resources/assets/chemically/models/block/jade_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelFactoryFloor",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_factory_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/steel_factory_floor.json",
+          "src/main/java/net/mcreator/chemically/block/SteelFactoryFloorBlock.java",
+          "src/main/resources/assets/chemically/models/block/steel_factory_floor.json",
+          "src/main/resources/assets/chemically/blockstates/steel_factory_floor.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Iodine",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iodine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/iodine.json",
+          "src/main/java/net/mcreator/chemically/item/IodineItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "GoldRod",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/GoldRodItem.java",
+          "src/main/resources/assets/chemically/models/item/gold_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "LaboratoryBlock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/LaboratoryBlockBlock.java",
+          "src/main/resources/assets/chemically/models/item/laboratory_block.json",
+          "src/main/resources/assets/chemically/models/block/laboratory_block.json",
+          "src/main/resources/assets/chemically/blockstates/laboratory_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/steel_block.json",
+          "src/main/java/net/mcreator/chemically/block/SteelBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/steel_block.json",
+          "src/main/resources/assets/chemically/models/item/steel_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Onyx",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/OnyxItem.java",
+          "src/main/resources/assets/chemically/models/item/onyx.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxBlock",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/onyx_block.json",
+          "src/main/resources/assets/chemically/models/block/onyx_block.json",
+          "src/main/resources/assets/chemically/models/item/onyx_block.json",
+          "src/main/java/net/mcreator/chemically/block/OnyxBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Nitrogen",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrogen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/nitrogen.json",
+          "src/main/java/net/mcreator/chemically/item/NitrogenItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Pseudoephedrine",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pseudoephedrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/pseudoephedrine.json",
+          "src/main/java/net/mcreator/chemically/item/PseudoephedrineItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Phosphorous",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphorous",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/phosphorous.json",
+          "src/main/java/net/mcreator/chemically/item/PhosphorousItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/ruby.json",
+          "src/main/java/net/mcreator/chemically/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/RubyBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/ruby_block.json",
+          "src/main/resources/assets/chemically/models/item/ruby_block.json",
+          "src/main/resources/assets/chemically/models/block/ruby_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SulfurOre",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/worldgen/placed_feature/sulfur_ore.json",
+          "src/main/resources/data/chemically/forge/biome_modifier/sulfur_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/chemically/block/SulfurOreBlock.java",
+          "src/main/resources/data/chemically/worldgen/configured_feature/sulfur_ore.json",
+          "src/main/resources/assets/chemically/models/item/sulfur_ore.json",
+          "src/main/resources/assets/chemically/blockstates/sulfur_ore.json",
+          "src/main/resources/assets/chemically/models/block/sulfur_ore.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Meth",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/MethItem.java",
+          "src/main/resources/assets/chemically/models/item/meth.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "SulfurBlock",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/sulfur_block.json",
+          "src/main/java/net/mcreator/chemically/block/SulfurBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/sulfur_block.json",
+          "src/main/resources/assets/chemically/models/block/sulfur_block.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Polyethylene",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polyethylene",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/PolyethyleneItem.java",
+          "src/main/resources/assets/chemically/models/item/polyethylene.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RefinedQuartz",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_quartz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/RefinedQuartzItem.java",
+          "src/main/resources/assets/chemically/models/item/refined_quartz.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Ephedra",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/EphedraItem.java",
+          "src/main/resources/assets/chemically/models/item/ephedra.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "EphedraSeeds",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/EphedraSeedsItem.java",
+          "src/main/resources/assets/chemically/models/item/ephedra_seeds.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "LightbulbRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/lightbulb_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cyanide",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyanide",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/cyanide.json",
+          "src/main/java/net/mcreator/chemically/item/CyanideItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Biomass",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/BiomassItem.java",
+          "src/main/resources/assets/chemically/models/item/biomass.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "BiomassRecipt",
+      "type": "recipe",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomass_recipt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemically/recipes/biomass_recipt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Aluminosilicate",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminosilicate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/aluminosilicate.json",
+          "src/main/java/net/mcreator/chemically/item/AluminosilicateItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "AluminumDoor",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/block/aluminum_door_top_left.json",
+          "src/main/java/net/mcreator/chemically/block/AluminumDoorBlock.java",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_right.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_right_open.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_left.json",
+          "src/main/resources/assets/chemically/models/item/aluminum_door.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_top_right.json",
+          "src/main/resources/assets/chemically/blockstates/aluminum_door.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_top_left_open.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_top_right_open.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Caution",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caution",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/CautionBlock.java",
+          "src/main/resources/assets/chemically/blockstates/caution.json",
+          "src/main/resources/assets/chemically/models/item/caution.json",
+          "src/main/resources/assets/chemically/models/block/caution.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "RedCaution",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_caution",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/red_caution.json",
+          "src/main/resources/assets/chemically/models/item/red_caution.json",
+          "src/main/java/net/mcreator/chemically/block/RedCautionBlock.java",
+          "src/main/resources/assets/chemically/models/block/red_caution.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/bronze_ingot.json",
+          "src/main/java/net/mcreator/chemically/item/BronzeIngotItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/blockstates/bronze_block.json",
+          "src/main/resources/assets/chemically/models/block/bronze_block.json",
+          "src/main/resources/assets/chemically/models/item/bronze_block.json",
+          "src/main/java/net/mcreator/chemically/block/BronzeBlockBlock.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "NitrateDust",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrate_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/nitrate_dust.json",
+          "src/main/java/net/mcreator/chemically/item/NitrateDustItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Thermite",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/ThermiteItem.java",
+          "src/main/resources/assets/chemically/models/item/thermite.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "ThermiteGrenad",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermite_grenad",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/thermite_grenad.json",
+          "src/main/resources/assets/chemically/models/item/thermite_grenad_0.json",
+          "src/main/java/net/mcreator/chemically/item/ThermiteGrenadItem.java"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "ThermiteGrenadPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thermite_grenad_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/ThermiteGrenadPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SCANNER",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scanner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/scanner_0.json",
+          "src/main/java/net/mcreator/chemically/item/SCANNERItem.java",
+          "src/main/resources/assets/chemically/models/item/scanner.json",
+          "src/main/resources/assets/chemically/models/item/scanner_1.json"
+        ]
+      },
+      "path": "~/Functional Tools"
+    },
+    {
+      "name": "SCANNERPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scanner_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/chemically/procedures/SCANNERPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnginePiston",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engine_piston",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/EnginePistonItem.java",
+          "src/main/resources/assets/chemically/models/item/engine_piston.json"
+        ]
+      }
+    },
+    {
+      "name": "Ammonia",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammonia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemically/models/item/ammonia.json",
+          "src/main/java/net/mcreator/chemically/item/AmmoniaItem.java"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "TestTube",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/TestTubeItem.java",
+          "src/main/resources/assets/chemically/models/item/test_tube.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "Server",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/block/ServerBlock.java",
+          "src/main/java/net/mcreator/chemically/block/entity/ServerBlockEntity.java",
+          "src/main/resources/assets/chemically/models/item/server.json",
+          "src/main/resources/assets/chemically/models/block/server.json",
+          "src/main/resources/assets/chemically/blockstates/server.json"
+        ]
+      }
+    },
+    {
+      "name": "Constantan",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/ConstantanItem.java",
+          "src/main/resources/assets/chemically/models/item/constantan_ingot.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    },
+    {
+      "name": "ElectrumIngot",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemically/item/ElectrumIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/electrum_ingot.json"
+        ]
+      },
+      "path": "~/Chemistry"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "lpmds-activation-success",
+      "files": [
+        "lpmds-lasereffect"
+      ],
+      "category": "block",
+      "subtitle": "Low Proximity Magnetic Distortion System Activates (Successful)"
+    },
+    {
+      "name": "gammagun.fire",
+      "files": [
+        "gamma-gun_fire"
+      ],
+      "category": "player",
+      "subtitle": "Gamma Cannon Fires"
+    },
+    {
+      "name": "gammagun.charge",
+      "files": [
+        "gamma-charging"
+      ],
+      "category": "player",
+      "subtitle": "Gamma Cannon Charges"
+    },
+    {
+      "name": "entity.cockroach_hurt",
+      "files": [
+        "cockroach_hurt_0"
+      ],
+      "category": "neutral",
+      "subtitle": "Cockroach Hit"
+    },
+    {
+      "name": "item.gravitygun.launch",
+      "files": [
+        "superphys_launch1"
+      ],
+      "category": "player",
+      "subtitle": "Gravity Gun Launches"
+    },
+    {
+      "name": "item.gravitygun.holdloop",
+      "files": [
+        "hold_loop"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.gravitygun.error",
+      "files": [
+        "physcannon_dryfire"
+      ],
+      "category": "player",
+      "subtitle": "Gravity Gun Errors"
+    },
+    {
+      "name": "item.gravitygun.pickup",
+      "files": [
+        "physcannon_pickup"
+      ],
+      "category": "player",
+      "subtitle": "Gravity Gun Activates"
+    },
+    {
+      "name": "item.gravitygun.drop",
+      "files": [
+        "physcannon_drop"
+      ],
+      "category": "player",
+      "subtitle": "Gravity Gun Deactivates"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "effect.chemically.radiation_sickness": "Radiation Sickness",
+      "block.chemically.lead_ore": "Lead Ore",
+      "subtitles.item.gravitygun.launch": "Gravity Gun Launches",
+      "block.chemically.raw_aluminum_block": "Raw Aluminum Block",
+      "gui.chemically.hydraulic_press_gui.label_hydraulic_press": "Hydraulic Press",
+      "advancements.load_in_with_mod.title": "I\u0027m waking up to ash and dust...",
+      "item.chemically.cockroach_wing": "Cockroach Wing",
+      "item.chemically.ruby": "Ruby",
+      "block.chemically.jade_block": "Jade Block",
+      "block.chemically.caution": "Caution Block",
+      "item.chemically.copper_wire": "Copper Wire Spool",
+      "block.chemically.aluminum_door": "Aluminum Door",
+      "item.chemically.steel_boots": "Steel Boots",
+      "block.chemically.steel_block": "Steel Block",
+      "block.chemically.polished_endstone": "Polished Endstone",
+      "block.chemically.uranium_ore": "Uranium Ore",
+      "block.chemically.powdered_redstone": "Powdered Redstone",
+      "item.minecraft.potion.effect.coca": "Potion of Coca",
+      "item.minecraft.tipped_arrow.effect.coca": "Arrow of Coca",
+      "subtitles.gammagun.charge": "Gamma Cannon Charges",
+      "item.chemically.aluminum_pickaxe": "Aluminum Pickaxe",
+      "item.chemically.uranium_armor_helmet": "Uranium Helmet",
+      "gamerule.radioactiveDamage": "Radioactive Damage",
+      "item.chemically.synchrotron": "Synchrotron",
+      "item.chemically.raw_aluminum": "Raw Aluminum",
+      "death.attack.radiation.item": "%1$s was disintegrated by %2$s using %3$s",
+      "item.chemically.constantan_ingot": "Constantan Ingot",
+      "item.chemically.lead_hoe": "Lead Hoe",
+      "item_group.chemically.gasses": "Gasses",
+      "item.chemically.faraday_armor_helmet": "Faraday Armor Helmet",
+      "item.chemically.copper_armor_leggings": "Copper Leggings",
+      "item.chemically.iodine": "Iodine",
+      "item.chemically.portable_lpmds": "Handheld LPMDS",
+      "block.chemically.ruby_block": "Ruby Block",
+      "item.chemically.aluminum_shovel": "Aluminum Shovel",
+      "item.chemically.gold_rod": "Gold Rod",
+      "block.chemically.obsidian_tiles": "Obsidian Tiles",
+      "item.chemically.uranium_hoe": "Uranium Hoe",
+      "subtitles.item.gravitygun.pickup": "Gravity Gun Activates",
+      "block.chemically.silver_block": "Silver Block",
+      "item.chemically.nitrate_dust": "Nitrate Dust",
+      "item.chemically.copper_rod": "Copper Rod",
+      "item.chemically.raw_uranium": "Raw Uranium",
+      "item.chemically.nanophotonic_electron_accelerator": "Nanophotonic Electron Accelerator",
+      "advancements.max_conveyer.title": "Overpowered Conveyer",
+      "block.chemically.threshold_structure_block": "Threshold Structure Block",
+      "advancements.load_in_with_mod.descr": "Start a world with the mod enabled.",
+      "block.chemically.sandstone_fire_trap_ignited": "Sandstone Fire Trap Ignited",
+      "effect.chemically.coca_high": "Coca High",
+      "item.chemically.light_bulb": "Light Bulb",
+      "item.chemically.advanced_computation_circuit": "Advanced Computation Circuit",
+      "item.chemically.uranium_armor_leggings": "Uranium Leggings",
+      "item.chemically.steel_leggings": "Steel Leggings",
+      "item.chemically.lead_armor_leggings": "Lead Leggings",
+      "block.chemically.temporal_lamp": "Temporal Lamp",
+      "item.chemically.reinforced_stick": "Reinforced Stick",
+      "item.chemically.redstone_wire": "Redstone Wire Spool",
+      "item.chemically.servo": "Servo",
+      "block.chemically.chiseled_stone_brick_pillar": "Chiseled Stone Brick Pillar",
+      "item.chemically.fuel_canister": "Fuel Canister",
+      "item.chemically.lead_armor_chestplate": "Lead Chestplate",
+      "item.chemically.silver_ingot": "Silver Ingot",
+      "item_group.chemically.compounds_and_alloys": "Compounds \u0026 Alloys",
+      "item.chemically.pseudoephedrine": "Pseudoephedrine",
+      "block.chemically.aluminum_block": "Aluminum Block",
+      "item.chemically.capacitor": "Capacitor",
+      "item.chemically.gas_cylinder": "Gas Cylinder",
+      "advancements.max_conveyer.descr": "Charge a conveyer belt to max speed.",
+      "item.chemically.aluminum_armor_helmet": "Aluminum Helmet",
+      "item.chemically.bronze_ingot": "Bronze Ingot",
+      "item.chemically.phosphorous": "Phosphorous",
+      "item.chemically.beaker": "Beaker",
+      "block.chemically.superconductive_magnet": "Superconductive Magnet",
+      "subtitles.entity.cockroach_hurt": "Cockroach Hit",
+      "block.chemically.quartz_lamp_active": "Quartz Lamp",
+      "block.chemically.asbestos": "Asbestos",
+      "item.chemically.aquamarine": "Aquamarine",
+      "item.chemically.meth": "Meth",
+      "item.chemically.advanced_logic_circuit": "Advanced Logic Circuit",
+      "block.chemically.chiseled_purpur": "Chiseled Purpur",
+      "item_group.chemically.solids": "Solids",
+      "item.chemically.sulfur": "Sulfur",
+      "block.chemically.uranium_block": "Block of Uranium",
+      "item.chemically.time_crystal": "Time Crystal",
+      "block.chemically.sulfur_block": "Sulfur Block",
+      "item.chemically.jade": "Jade",
+      "block.chemically.red_caution": "Danger Block",
+      "item.chemically.lead_sword": "Lead Sword",
+      "block.chemically.obsidian_bricks": "Obsidian Bricks",
+      "item.chemically.copper_hoe": "Copper Hoe",
+      "item.chemically.steel_helmet": "Steel Helmet",
+      "block.chemically.polarity_device": "Polarity Device",
+      "block.chemically.stone_tiles": "Stone Tiles",
+      "item.chemically.polyethylene": "Polyethylene",
+      "item.chemically.copper_pickaxe": "Copper Pickaxe",
+      "block.chemically.purple_tulip": "Purple Tulip",
+      "block.chemically.lpmds": "Low-Proximity Magnetic Distortion System Core",
+      "item.chemically.lead_axe": "Lead Axe",
+      "item.chemically.copper_sword": "Copper Sword",
+      "item.chemically.uranium_ingot": "Uranium",
+      "item.chemically.faraday_armor_boots": "Faraday Armor Boots",
+      "block.chemically.witherite": "Witherite Block",
+      "item.chemically.uranium_armor_boots": "Uranium Boots",
+      "block.chemically.sinusoidal_wave": "Sinusoidal Wave",
+      "block.chemically.obsidian_runes": "Obsidian Runes",
+      "item.chemically.aluminum_armor_leggings": "Aluminum Leggings",
+      "item.chemically.refined_quartz": "Refined Quartz",
+      "item.chemically.aluminum_armor_boots": "Aluminum Boots",
+      "item.chemically.copper_shovel": "Copper Shovel",
+      "item.chemically.aluminum_ingot": "Aluminum Ingot",
+      "subtitles.item.gravitygun.error": "Gravity Gun Errors",
+      "item.chemically.everything.desc": "Kane Parsons - Everything",
+      "block.chemically.raw_nickel_block": "Raw Nickel Block",
+      "block.chemically.lead_block": "Block of Lead",
+      "item_group.chemically.liquids": "Liquids",
+      "block.chemically.stone_pillar": "Stone Pillar",
+      "item.chemically.aluminum_armor_chestplate": "Aluminum Chestplate",
+      "item.chemically.lead_pickaxe": "Lead Pickaxe",
+      "item.chemically.logic_circuit": "Logic Circuit",
+      "item.chemically.faraday_armor_leggings": "Faraday Armor Leggings",
+      "block.chemically.hydraulic_press": "Hydraulic Press",
+      "death.attack.radiation": "%1$s died by radiation poisoning",
+      "item.chemically.flask": "Flask",
+      "item.chemically.uranium_axe": "Uranium Axe",
+      "item.chemically.copper_axe": "Copper Axe",
+      "block.chemically.raw_silver_block": "Raw Silver Block",
+      "item_group.chemically.backrooms": "Backrooms",
+      "item.chemically.wrench": "Wrench",
+      "item.chemically.lead_ingot": "Lead",
+      "block.chemically.power_cell": "Power Cell",
+      "block.chemically.sulfur_ore": "Sulfur Ore",
+      "item.chemically.witherite_ingot": "Witherite Ingot",
+      "item.chemically.everything": "Everything",
+      "item.chemically.hydrogen": "Hydrogen Gas",
+      "item.chemically.cockroach_spawn_egg": "Cockroach Spawn Egg",
+      "item.chemically.electrum_ingot": "Electrum Ingot",
+      "item.chemically.thermite_grenad": "Thermite Grenade",
+      "block.chemically.launch_pad": "Launch Pad",
+      "item.chemically.lead_armor_boots": "Lead Boots",
+      "item.chemically.nickel_rod": "Nickel Rod",
+      "block.chemically.conveyer": "Conveyer",
+      "item.chemically.raw_lead_item": "Raw Lead",
+      "block.chemically.quartz_lamp": "Quartz Lamp",
+      "item.chemically.lithium_ion_battery": "Lithium Ion Battery",
+      "subtitles.lpmds-activation-success": "Low Proximity Magnetic Distortion System Activates (Successful)",
+      "item.chemically.aluminum_axe": "Aluminum Axe",
+      "block.chemically.onyx_block": "Onyx Block",
+      "block.chemically.steel_factory_floor": "Steel Factory Floor",
+      "item.chemically.nickel_ingot": "Nickel Ingot",
+      "item.chemically.raw_silver": "Raw Silver",
+      "block.chemically.aquamarine_block": "Aquamarine Block",
+      "item.chemically.aluminum_hoe": "Aluminum Hoe",
+      "item.chemically.lead_shovel": "Lead Shovel",
+      "gamerule.radioactiveDamage.description": "Determines whether players take damage from radioactivity",
+      "item.chemically.steel_chestplate": "Steel Chestplate",
+      "item.chemically.saltpeter": "Saltpeter",
+      "subtitles.item.gravitygun.drop": "Gravity Gun Deactivates",
+      "item.chemically.lead_armor_helmet": "Lead Helmet",
+      "block.chemically.laboratory_block": "Laboratory Block",
+      "item_group.chemically.mod_misc": "Mod Misc",
+      "item.chemically.engine_piston": "Engine Piston",
+      "item.chemically.aluminosilicate": "Aluminosilicate",
+      "death.attack.radiation.player": "%1$s disintegrated while trying to escape %2$s",
+      "block.chemically.accelerator": "Accelerator",
+      "block.chemically.raw_lead_block": "Raw Lead Block",
+      "item.chemically.antenna": "Antenna",
+      "block.chemically.server": "Server",
+      "block.chemically.time_crystal_block": "Time Crystal Block",
+      "block.chemically.uranium_deepslate_ore": "Uranium Deepslate Ore",
+      "block.chemically.asphalt": "Asphalt",
+      "item.chemically.ephedra_seeds": "Ephedra Seeds",
+      "item.chemically.gravity_gun": "Gravity Gun",
+      "item.chemically.raw_nickel_item": "Raw Nickel Item",
+      "block.chemically.high_velocity_rotor": "High Velocity Rotor",
+      "subtitles.gammagun.fire": "Gamma Cannon Fires",
+      "item.chemically.steel_wire_spool": "Steel Wire Spool",
+      "item.chemically.ammonia": "Ammonia",
+      "item.chemically.onyx": "Onyx",
+      "item.chemically.copper_armor_boots": "Copper Boots",
+      "item.chemically.scanner": "SCANNER",
+      "item.chemically.steel_rod": "Steel Rod",
+      "block.chemically.raw_uranium_block": "Raw Uranium Block",
+      "item.chemically.aluminum_sword": "Aluminum Sword",
+      "item.chemically.adhesive": "Adhesive",
+      "item.chemically.steel_ingot": "Steel Ingot",
+      "item.chemically.faraday_armor_chestplate": "Faraday Armor Chestplate",
+      "block.chemically.endstone_pillar": "Endstone Pillar",
+      "item.chemically.rubber": "Rubber",
+      "entity.chemically.cockroach": "Cockroach",
+      "item.chemically.thermite": "Thermite",
+      "item.chemically.copper_armor_helmet": "Copper Helmet",
+      "item.chemically.ephedra": "Ephedra",
+      "item.chemically.iron_rod": "Iron Rod",
+      "item.chemically.uranium_sword": "Uranium Sword",
+      "item.chemically.nitrogen": "Nitrogen",
+      "subtitles.item.gravitygun.holdloop": "",
+      "item.chemically.biomass": "Biomass",
+      "item.chemically.uranium_pickaxe": "Uranium Pickaxe",
+      "item.chemically.test_tube": "Test Tube",
+      "effect.chemically.end_sickness": "End Sickness",
+      "item.chemically.cyanide": "Cyanide",
+      "block.chemically.electromagnetic_field_generator": "Electromagnetic Field Generator",
+      "item.chemically.circuit_board": "Circuit Board",
+      "block.chemically.bronze_block": "Bronze Block",
+      "item.chemically.uranium_armor_chestplate": "Uranium Chestplate",
+      "item.chemically.polyvinyl_chloride": "Polyvinyl Chloride",
+      "block.chemically.chiseled_endstone": "Chiseled Endstone",
+      "block.chemically.deepslate_squares": "Deepslate Square Tiles",
+      "item.chemically.uranium_shovel": "Uranium Shovel",
+      "item.chemically.copper_armor_chestplate": "Copper Chestplate",
+      "block.chemically.sandstone_fire_trap": "Sandstone Fire Trap",
+      "item.minecraft.splash_potion.effect.coca": "Splash Potion of Coca",
+      "block.chemically.rf_cavity_resonator": "RF Cavity Resonator",
+      "item.minecraft.lingering_potion.effect.coca": "Lingering Potion of Coca"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Filler Tools",
+        "children": []
+      },
+      {
+        "name": "Functional Tools",
+        "children": []
+      },
+      {
+        "name": "Chemistry",
+        "children": []
+      },
+      {
+        "name": "GUIs and such",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "chemically",
+    "modName": "Chemically Chemical--Kinda",
+    "version": "1.0.1",
+    "description": "no",
+    "author": "Temperance, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.chemically",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

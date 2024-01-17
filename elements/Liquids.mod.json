@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Liquids",
+    "icon": {
+      "value": "Items.POTIONITEM"
+    },
+    "showSearch": true
+  }
+}

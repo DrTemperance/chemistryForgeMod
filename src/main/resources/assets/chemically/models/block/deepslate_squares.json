@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/dungeon_block",
+    "up": "chemically:block/dungeon_block",
+    "north": "chemically:block/dungeon_block",
+    "east": "chemically:block/dungeon_block",
+    "south": "chemically:block/dungeon_block",
+    "west": "chemically:block/dungeon_block",
+    "particle": "chemically:block/dungeon_block"
+  },
+  "render_type": "solid"
+}

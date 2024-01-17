@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemically:block/conveyer"
+    },
+    "facing=east": {
+      "model": "chemically:block/conveyer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemically:block/conveyer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemically:block/conveyer",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "lpmds-activation-success": {
+    "subtitle": "subtitles.lpmds-activation-success",
+    "sounds": [
+      {
+        "name": "chemically:lpmds-lasereffect",
+        "stream": false
+      }
+    ]
+  },
+  "gammagun.fire": {
+    "subtitle": "subtitles.gammagun.fire",
+    "sounds": [
+      {
+        "name": "chemically:gamma-gun_fire",
+        "stream": false
+      }
+    ]
+  },
+  "gammagun.charge": {
+    "subtitle": "subtitles.gammagun.charge",
+    "sounds": [
+      {
+        "name": "chemically:gamma-charging",
+        "stream": false
+      }
+    ]
+  },
+  "entity.cockroach_hurt": {
+    "subtitle": "subtitles.entity.cockroach_hurt",
+    "sounds": [
+      {
+        "name": "chemically:cockroach_hurt_0",
+        "stream": false
+      }
+    ]
+  },
+  "item.gravitygun.launch": {
+    "subtitle": "subtitles.item.gravitygun.launch",
+    "sounds": [
+      {
+        "name": "chemically:superphys_launch1",
+        "stream": false
+      }
+    ]
+  },
+  "item.gravitygun.holdloop": {
+    "sounds": [
+      {
+        "name": "chemically:hold_loop",
+        "stream": false
+      }
+    ]
+  },
+  "item.gravitygun.error": {
+    "subtitle": "subtitles.item.gravitygun.error",
+    "sounds": [
+      {
+        "name": "chemically:physcannon_dryfire",
+        "stream": false
+      }
+    ]
+  },
+  "item.gravitygun.pickup": {
+    "subtitle": "subtitles.item.gravitygun.pickup",
+    "sounds": [
+      {
+        "name": "chemically:physcannon_pickup",
+        "stream": false
+      }
+    ]
+  },
+  "item.gravitygun.drop": {
+    "subtitle": "subtitles.item.gravitygun.drop",
+    "sounds": [
+      {
+        "name": "chemically:physcannon_drop",
+        "stream": false
+      }
+    ]
+  }
+}

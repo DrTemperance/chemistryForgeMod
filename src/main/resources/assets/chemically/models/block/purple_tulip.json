@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chemically:block/purple_tulip",
+    "particle": "chemically:block/purple_tulip"
+  },
+  "render_type": "cutout"
+}

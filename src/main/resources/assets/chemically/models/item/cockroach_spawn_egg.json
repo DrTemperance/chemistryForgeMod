@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chemically:items/cockroach_spawn_egg",
+    "layer1": "chemically:items/cockroach_spawn_egg_overlay"
+  }
+}

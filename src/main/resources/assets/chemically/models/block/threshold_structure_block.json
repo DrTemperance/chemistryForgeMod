@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/storage_steel",
+    "up": "chemically:block/storage_steel",
+    "north": "chemically:block/conveyor_bottom",
+    "east": "chemically:block/conveyor_bottom",
+    "south": "chemically:block/conveyor_bottom",
+    "west": "chemically:block/conveyor_bottom",
+    "particle": "chemically:block/storage_steel"
+  },
+  "render_type": "solid"
+}

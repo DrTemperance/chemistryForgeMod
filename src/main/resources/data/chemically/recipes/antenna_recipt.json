@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "chemically:steel_wire_spool"
+    },
+    "b": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "c": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "chemically:antenna",
+    "count": 1
+  }
+}

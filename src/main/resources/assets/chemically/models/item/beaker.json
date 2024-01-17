@@ -1,0 +1,7 @@
+{
+  "parent": "chemically:custom/beaker",
+  "textures": {
+    "0": "chemically:block/beaker",
+    "particle": "chemically:item/beaker"
+  }
+}

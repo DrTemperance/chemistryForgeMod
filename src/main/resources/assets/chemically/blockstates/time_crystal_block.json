@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chemically:block/time_crystal_block"
+    }
+  }
+}

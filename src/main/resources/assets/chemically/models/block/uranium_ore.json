@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chemically:block/ore_uranium",
+    "particle": "chemically:block/ore_uranium"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chemically:block/temporal_lamp",
+    "particle": "chemically:block/temporal_lamp"
+  },
+  "render_type": "solid"
+}

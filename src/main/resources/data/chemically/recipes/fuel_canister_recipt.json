@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cdc",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "tag": "chemically:button_items"
+    },
+    "b": {
+      "item": "chemically:rubber"
+    },
+    "c": {
+      "item": "chemically:polyvinyl_chloride"
+    },
+    "d": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "chemically:fuel_canister",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemically:block/accelerator"
+    },
+    "facing=east": {
+      "model": "chemically:block/accelerator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemically:block/accelerator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemically:block/accelerator",
+      "y": 270
+    }
+  }
+}

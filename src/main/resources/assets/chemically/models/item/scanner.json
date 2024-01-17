@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chemically:item/oil_scanner_none"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "chemically:scanner_strength": 3
+      },
+      "model": "chemically:item/scanner_0"
+    },
+    {
+      "predicate": {
+        "chemically:scanner_strength": 8
+      },
+      "model": "chemically:item/scanner_1"
+    }
+  ]
+}

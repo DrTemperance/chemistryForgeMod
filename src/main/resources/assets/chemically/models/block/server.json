@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/back",
+    "up": "chemically:block/back",
+    "north": "chemically:block/server",
+    "east": "chemically:block/server",
+    "south": "chemically:block/server",
+    "west": "chemically:block/server",
+    "particle": "chemically:block/back"
+  },
+  "render_type": "solid"
+}

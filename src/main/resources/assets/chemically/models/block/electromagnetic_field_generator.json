@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/front_on",
+    "up": "chemically:block/generator_solar_lit",
+    "north": "chemically:block/gam",
+    "east": "chemically:block/gam",
+    "south": "chemically:block/gam",
+    "west": "chemically:block/gam",
+    "particle": "chemically:block/front_on"
+  },
+  "render_type": "solid"
+}

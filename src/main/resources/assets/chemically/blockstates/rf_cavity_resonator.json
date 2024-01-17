@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "chemically:block/rf_cavity_resonator",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "chemically:block/rf_cavity_resonator"
+    },
+    "axis=z": {
+      "model": "chemically:block/rf_cavity_resonator",
+      "x": 90
+    }
+  }
+}

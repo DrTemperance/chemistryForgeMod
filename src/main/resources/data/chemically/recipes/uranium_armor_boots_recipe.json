@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "chemically:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "chemically:uranium_armor_boots",
+    "count": 1
+  }
+}

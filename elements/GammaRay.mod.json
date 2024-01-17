@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.ECHO_SHARD"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "CUSTOM:gammagun.fire"
+    },
+    "igniteFire": true,
+    "power": 2.7,
+    "damage": 10.0,
+    "knockback": 0,
+    "entityModel": "Modelgamma",
+    "customModelTexture": "gamma.png",
+    "onHitsBlock": {
+      "name": "GammaRayProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "GammaRayProjectileHitsLivingEntity"
+    }
+  }
+}

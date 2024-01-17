@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemically:block/electromagnetic_field_generator"
+    },
+    "facing=east": {
+      "model": "chemically:block/electromagnetic_field_generator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemically:block/electromagnetic_field_generator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemically:block/electromagnetic_field_generator",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "chemically:block/electromagnetic_field_generator",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "chemically:block/electromagnetic_field_generator",
+      "x": 90
+    }
+  }
+}

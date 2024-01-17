@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:echo_shard",
+    "chemically:uranium_ingot",
+    "chemically:uranium_ore",
+    "chemically:uranium_block",
+    "chemically:uranium_pickaxe",
+    "chemically:uranium_axe",
+    "chemically:uranium_sword",
+    "chemically:uranium_shovel",
+    "chemically:uranium_hoe",
+    "chemically:uranium_armor_helmet",
+    "chemically:uranium_armor_chestplate",
+    "chemically:uranium_armor_leggings",
+    "chemically:uranium_armor_boots"
+  ]
+}

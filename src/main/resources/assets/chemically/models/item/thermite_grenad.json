@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chemically:item/thermite_grenade"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "chemically:thermite_grenad_activated": 1
+      },
+      "model": "chemically:item/thermite_grenad_0"
+    }
+  ]
+}

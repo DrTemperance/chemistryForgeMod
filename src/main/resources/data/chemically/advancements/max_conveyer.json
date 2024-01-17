@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chemically:conveyer"
+    },
+    "title": {
+      "translate": "advancements.max_conveyer.title"
+    },
+    "description": {
+      "translate": "advancements.max_conveyer.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "max_conveyer": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "chemically:load_in_with_mod"
+}

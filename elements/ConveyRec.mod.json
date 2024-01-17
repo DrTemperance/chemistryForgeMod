@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blocktech",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SteelWireSpool"
+      },
+      {
+        "value": "CUSTOM:RedstoneWire"
+      },
+      {
+        "value": "CUSTOM:SteelWireSpool"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE_SLAB#0"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Conveyer"
+    },
+    "name": "convey_rec",
+    "namespace": "mod"
+  }
+}

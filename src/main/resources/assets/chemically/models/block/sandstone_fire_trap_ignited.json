@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/polished_end_stone",
+    "up": "chemically:block/polished_end_stone",
+    "north": "chemically:block/sandstone_ignite_trap_top_on",
+    "east": "chemically:block/polished_end_stone",
+    "south": "chemically:block/polished_end_stone",
+    "west": "chemically:block/polished_end_stone",
+    "particle": "chemically:block/polished_end_stone"
+  },
+  "render_type": "solid"
+}

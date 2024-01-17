@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "chemically:copper_rod",
+    "chemically:iron_rod",
+    "chemically:nickel_rod"
+  ]
+}

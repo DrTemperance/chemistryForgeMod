@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/obsidian_explosion_trap_bricks_off",
+    "up": "chemically:block/obsidian_explosion_trap_bricks_off",
+    "north": "chemically:block/obsidian_explosion_trap_bricks_off",
+    "east": "chemically:block/obsidian_explosion_trap_bricks_off",
+    "south": "chemically:block/obsidian_explosion_trap_bricks_off",
+    "west": "chemically:block/obsidian_explosion_trap_bricks_off",
+    "particle": "chemically:block/obsidian_explosion_trap_bricks_off"
+  },
+  "render_type": "solid"
+}

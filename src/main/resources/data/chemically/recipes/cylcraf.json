@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chemistry",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "chemically:button_items"
+    }
+  ],
+  "result": {
+    "item": "chemically:gas_cylinder",
+    "count": 4
+  }
+}

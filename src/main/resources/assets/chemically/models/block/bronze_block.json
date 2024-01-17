@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chemically:block/bronze_block_new",
+    "particle": "chemically:block/bronze_block_new"
+  },
+  "render_type": "solid"
+}

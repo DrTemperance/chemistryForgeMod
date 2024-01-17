@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blocktech",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dried_kelp"
+    },
+    "b": {
+      "item": "chemically:steel_wire_spool"
+    },
+    "c": {
+      "item": "chemically:redstone_wire"
+    },
+    "d": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "chemically:conveyer",
+    "count": 1
+  }
+}

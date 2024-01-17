@@ -1,0 +1,55 @@
+package net.mcreator.chemically.procedures;
+
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.core.BlockPos;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class PowerCellUpdateTickProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z) {
+		double fraction = 0;
+		fraction = new Object() {
+			public int getEnergyStored(LevelAccessor level, BlockPos pos) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = level.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+				return _retval.get();
+			}
+		}.getEnergyStored(world, BlockPos.containing(x, y, z)) / new Object() {
+			public int getMaxEnergyStored(LevelAccessor level, BlockPos pos) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = level.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getMaxEnergyStored()));
+				return _retval.get();
+			}
+		}.getMaxEnergyStored(world, BlockPos.containing(x, y, z));
+		if (new Object() {
+			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getPersistentData().getBoolean(tag);
+				return false;
+			}
+		}.getValue(world, BlockPos.containing(x, y, z), "activated")) {
+			{
+				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+				int _amount = new Object() {
+					public int extractEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
+						AtomicInteger _retval = new AtomicInteger(0);
+						BlockEntity _ent = level.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.extractEnergy(_amount, true)));
+						return _retval.get();
+					}
+				}.extractEnergySimulate(world, BlockPos.containing(x, y, z), 1000);
+				if (_ent != null)
+					_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.receiveEnergy(_amount, false));
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/stone_pillar_top",
+    "up": "chemically:block/stone_pillar_top",
+    "north": "chemically:block/stone_pillar",
+    "east": "chemically:block/stone_pillar",
+    "south": "chemically:block/stone_pillar",
+    "west": "chemically:block/stone_pillar",
+    "particle": "chemically:block/stone_pillar_top"
+  },
+  "render_type": "solid"
+}

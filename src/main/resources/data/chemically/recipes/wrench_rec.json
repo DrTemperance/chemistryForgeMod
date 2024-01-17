@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "chemically:iron_rod"
+    },
+    "b": {
+      "tag": "chemically:button_items"
+    },
+    "c": {
+      "item": "chemically:copper_rod"
+    },
+    "d": {
+      "item": "chemically:reinforced_stick"
+    }
+  },
+  "result": {
+    "item": "chemically:wrench",
+    "count": 1
+  }
+}

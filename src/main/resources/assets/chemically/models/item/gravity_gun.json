@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "chemically:item/gravigunnormal"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "chemically:gravity_gun_active": 1
+      },
+      "model": "chemically:item/gravity_gun_0"
+    }
+  ]
+}

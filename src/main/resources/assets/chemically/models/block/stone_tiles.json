@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chemically:block/stone_tiles",
+    "particle": "chemically:block/stone_tiles"
+  },
+  "render_type": "solid"
+}

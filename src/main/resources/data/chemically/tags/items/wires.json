@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "chemically:copper_wire",
+    "chemically:redstone_wire",
+    "chemically:steel_wire_spool"
+  ]
+}

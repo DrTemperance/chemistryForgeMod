@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Everything",
+    "rarity": "EPIC",
+    "texture": "music_disc_everything",
+    "description": "Kane Parsons - Everything",
+    "creativeTab": {
+      "value": "CUSTOM:Backrooms"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "music": {
+      "value": "CUSTOM:lpmds-activation-success"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

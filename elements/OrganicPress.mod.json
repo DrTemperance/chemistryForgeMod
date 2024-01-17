@@ -1,0 +1,391 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "TAG:minecraft:flowers"
+      },
+      {
+        "value": "TAG:minecraft:small_flowers"
+      },
+      {
+        "value": "Blocks.SAPLING#0"
+      },
+      {
+        "value": "Blocks.SAPLING#1"
+      },
+      {
+        "value": "Blocks.SAPLING#2"
+      },
+      {
+        "value": "Blocks.SAPLING#3"
+      },
+      {
+        "value": "Blocks.SAPLING#4"
+      },
+      {
+        "value": "Blocks.SAPLING#5"
+      },
+      {
+        "value": "Blocks.CHERRY_SAPLING"
+      },
+      {
+        "value": "Blocks.LEAVES#0"
+      },
+      {
+        "value": "Blocks.LEAVES#1"
+      },
+      {
+        "value": "Blocks.LEAVES#2"
+      },
+      {
+        "value": "Blocks.LEAVES#3"
+      },
+      {
+        "value": "Blocks.LEAVES2#0"
+      },
+      {
+        "value": "Blocks.LEAVES2#1"
+      },
+      {
+        "value": "Blocks.MANGROVE_LEAVES"
+      },
+      {
+        "value": "Blocks.AZALEA_LEAVES"
+      },
+      {
+        "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+      },
+      {
+        "value": "Blocks.CHERRY_LEAVES"
+      },
+      {
+        "value": "Blocks.TALLGRASS#1"
+      },
+      {
+        "value": "Blocks.TALLGRASS#2"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#2"
+      },
+      {
+        "value": "Blocks.SEAGRASS"
+      },
+      {
+        "value": "Blocks.TALL_SEAGRASS"
+      },
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.GRASS_PATH"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.DIRT#1"
+      },
+      {
+        "value": "Blocks.DIRT#2"
+      },
+      {
+        "value": "Blocks.ROOTED_DIRT"
+      },
+      {
+        "value": "Blocks.MUD"
+      },
+      {
+        "value": "Blocks.PACKED_MUD"
+      },
+      {
+        "value": "Blocks.MUDDY_MANGROVE_ROOTS"
+      },
+      {
+        "value": "Blocks.MYCELIUM"
+      },
+      {
+        "value": "Blocks.MANGROVE_PROPAGULE"
+      },
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "Blocks.MOSS_BLOCK"
+      },
+      {
+        "value": "Blocks.MOSS_CARPET"
+      },
+      {
+        "value": "Blocks.SLIME_BLOCK"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Blocks.YELLOW_FLOWER"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#0"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#1"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#2"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#3"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#4"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#5"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#6"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#7"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#8"
+      },
+      {
+        "value": "Blocks.CORNFLOWER"
+      },
+      {
+        "value": "Blocks.LILY_OF_THE_VALLEY"
+      },
+      {
+        "value": "Blocks.WITHER_ROSE"
+      },
+      {
+        "value": "Blocks.TORCHFLOWER"
+      },
+      {
+        "value": "Blocks.PINK_PETALS"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#1"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#3"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#4"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#5"
+      },
+      {
+        "value": "Blocks.PITCHER_PLANT"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM"
+      },
+      {
+        "value": "Blocks.RED_MUSHROOM"
+      },
+      {
+        "value": "Blocks.WARPED_FUNGUS"
+      },
+      {
+        "value": "Blocks.CRIMSON_FUNGUS"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.RED_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.WARPED_WART_BLOCK"
+      },
+      {
+        "value": "Blocks.MUSHROOM_STEM"
+      },
+      {
+        "value": "Blocks.CACTUS"
+      },
+      {
+        "value": "Blocks.CAKE"
+      },
+      {
+        "value": "Blocks.MELON_BLOCK"
+      },
+      {
+        "value": "Blocks.MELON_STEM"
+      },
+      {
+        "value": "Blocks.ATTACHED_MELON_STEM"
+      },
+      {
+        "value": "Blocks.PUMPKIN_STEM"
+      },
+      {
+        "value": "Blocks.ATTACHED_PUMPKIN_STEM"
+      },
+      {
+        "value": "Blocks.SWEET_BERRY_BUSH"
+      },
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "Blocks.GLOW_LICHEN"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      },
+      {
+        "value": "Blocks.BEETROOTS"
+      },
+      {
+        "value": "Blocks.COCOA"
+      },
+      {
+        "value": "Blocks.CARROTS"
+      },
+      {
+        "value": "Blocks.POTATOES"
+      },
+      {
+        "value": "Blocks.TORCHFLOWER_CROP"
+      },
+      {
+        "value": "Blocks.PITCHER_CROP"
+      },
+      {
+        "value": "Blocks.HAY_BLOCK"
+      },
+      {
+        "value": "Blocks.KELP"
+      },
+      {
+        "value": "Blocks.KELP_PLANT"
+      },
+      {
+        "value": "Blocks.SEA_PICKLE"
+      },
+      {
+        "value": "Blocks.BAMBOO_SAPLING"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.WHEAT_SEEDS"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.BAKED_POTATO"
+      },
+      {
+        "value": "Items.POISONOUS_POTATO"
+      },
+      {
+        "value": "Items.PUMPKIN_PIE"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": "Items.PUMPKIN_SEEDS"
+      },
+      {
+        "value": "Items.TORCHFLOWER_SEEDS"
+      },
+      {
+        "value": "Items.PITCHER_POD"
+      },
+      {
+        "value": "Items.REEDS"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "Items.MELON"
+      },
+      {
+        "value": "Items.MELON_SEEDS"
+      },
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "Items.FISH#1"
+      },
+      {
+        "value": "Items.FISH#2"
+      },
+      {
+        "value": "Items.FISH#3"
+      },
+      {
+        "value": "Items.COOKED_FISH#0"
+      },
+      {
+        "value": "Items.COOKED_FISH#1"
+      },
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "Items.BEEF"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.MUTTON"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.BEETROOT_SEEDS"
+      },
+      {
+        "value": "Items.SPIDER_EYE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "organic_press",
+    "namespace": "minecraft"
+  }
+}

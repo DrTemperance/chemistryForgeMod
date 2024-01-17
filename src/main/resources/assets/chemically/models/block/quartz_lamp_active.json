@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chemically:block/p1",
+    "particle": "chemically:block/p1"
+  },
+  "render_type": "translucent"
+}

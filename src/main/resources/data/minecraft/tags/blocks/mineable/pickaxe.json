@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "chemically:server",
+    "chemically:conveyer",
+    "chemically:polarity_device",
+    "chemically:hydraulic_press",
+    "chemically:power_cell",
+    "chemically:electromagnetic_field_generator",
+    "chemically:accelerator",
+    "chemically:laboratory_block",
+    "chemically:temporal_lamp",
+    "chemically:sandstone_fire_trap",
+    "chemically:steel_factory_floor",
+    "chemically:aluminum_door",
+    "chemically:sulfur_ore",
+    "chemically:lead_ore",
+    "chemically:uranium_deepslate_ore",
+    "chemically:uranium_ore",
+    "chemically:high_velocity_rotor",
+    "chemically:lpmds",
+    "chemically:rf_cavity_resonator",
+    "chemically:threshold_structure_block",
+    "chemically:superconductive_magnet",
+    "chemically:asphalt",
+    "chemically:steel_block",
+    "chemically:uranium_block",
+    "chemically:raw_uranium_block",
+    "chemically:time_crystal_block",
+    "chemically:lead_block",
+    "chemically:sandstone_fire_trap_ignited"
+  ]
+}

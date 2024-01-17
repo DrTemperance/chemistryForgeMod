@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "chemically:block/aluminum_block",
+    "bottom": "chemically:block/aluminum_door_bottom",
+    "top": "chemically:block/aluminum_door_top"
+  },
+  "render_type": "solid"
+}
