@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "chemically:block/steel_block",
-    "particle": "chemically:block/steel_block"
+    "all": "chemically:block/steel_tank_top",
+    "particle": "chemically:block/steel_tank_top"
   },
   "render_type": "solid"
 }

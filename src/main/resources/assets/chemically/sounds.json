@@ -78,5 +78,68 @@
         "stream": false
       }
     ]
+  },
+  "nuke.warn": {
+    "subtitle": "subtitles.nuke.warn",
+    "sounds": [
+      {
+        "name": "chemically:nukealert",
+        "stream": false
+      }
+    ]
+  },
+  "vocal.decontamination": {
+    "subtitle": "subtitles.vocal.decontamination",
+    "sounds": [
+      {
+        "name": "chemically:vocal_decontamination",
+        "stream": false
+      }
+    ]
+  },
+  "vocal.evacuation": {
+    "subtitle": "subtitles.vocal.evacuation",
+    "sounds": [
+      {
+        "name": "chemically:vocal_evacuatecomplex",
+        "stream": false
+      }
+    ]
+  },
+  "vocal.unauthorizedactivity": {
+    "subtitle": "subtitles.vocal.unauthorizedactivity",
+    "sounds": [
+      {
+        "name": "chemically:vocal_unauthorizedactivity",
+        "stream": false
+      }
+    ]
+  },
+  "vocal.reactorbreach": {
+    "subtitle": "subtitles.vocal.reactorbreach",
+    "sounds": [
+      {
+        "name": "chemically:vocal_reactorbreach",
+        "stream": false
+      }
+    ]
+  },
+  "vocal.alert": {
+    "subtitle": "subtitles.vocal.alert",
+    "sounds": [
+      {
+        "name": "chemically:vocal_alert",
+        "stream": false
+      }
+    ]
+  },
+  "vocal.warning": {
+    "subtitle": "subtitles.vocal.warning",
+    "sounds": [
+      {
+        "name": "chemically:vocal_warning",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chemically:item/arc"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "chemically:electric_lighter_open": 1
+      },
+      "model": "chemically:item/electric_lighter_0"
+    },
+    {
+      "predicate": {
+        "chemically:electric_lighter_active": 1
+      },
+      "model": "chemically:item/electric_lighter_1"
+    }
+  ]
+}

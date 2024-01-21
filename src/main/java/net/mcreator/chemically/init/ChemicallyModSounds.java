@@ -24,4 +24,11 @@ public class ChemicallyModSounds {
 	public static final RegistryObject<SoundEvent> ITEM_GRAVITYGUN_ERROR = REGISTRY.register("item.gravitygun.error", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "item.gravitygun.error")));
 	public static final RegistryObject<SoundEvent> ITEM_GRAVITYGUN_PICKUP = REGISTRY.register("item.gravitygun.pickup", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "item.gravitygun.pickup")));
 	public static final RegistryObject<SoundEvent> ITEM_GRAVITYGUN_DROP = REGISTRY.register("item.gravitygun.drop", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "item.gravitygun.drop")));
+	public static final RegistryObject<SoundEvent> NUKE_WARN = REGISTRY.register("nuke.warn", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "nuke.warn")));
+	public static final RegistryObject<SoundEvent> VOCAL_DECONTAMINATION = REGISTRY.register("vocal.decontamination", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "vocal.decontamination")));
+	public static final RegistryObject<SoundEvent> VOCAL_EVACUATION = REGISTRY.register("vocal.evacuation", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "vocal.evacuation")));
+	public static final RegistryObject<SoundEvent> VOCAL_UNAUTHORIZEDACTIVITY = REGISTRY.register("vocal.unauthorizedactivity", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "vocal.unauthorizedactivity")));
+	public static final RegistryObject<SoundEvent> VOCAL_REACTORBREACH = REGISTRY.register("vocal.reactorbreach", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "vocal.reactorbreach")));
+	public static final RegistryObject<SoundEvent> VOCAL_ALERT = REGISTRY.register("vocal.alert", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "vocal.alert")));
+	public static final RegistryObject<SoundEvent> VOCAL_WARNING = REGISTRY.register("vocal.warning", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("chemically", "vocal.warning")));
 }

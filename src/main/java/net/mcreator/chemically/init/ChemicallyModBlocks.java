@@ -56,6 +56,9 @@ import net.mcreator.chemically.block.LaboratoryBlockBlock;
 import net.mcreator.chemically.block.JadeBlockBlock;
 import net.mcreator.chemically.block.HydraulicPressBlock;
 import net.mcreator.chemically.block.HighVelocityRotorBlock;
+import net.mcreator.chemically.block.GreenLampOnBlock;
+import net.mcreator.chemically.block.GreenLampBlock;
+import net.mcreator.chemically.block.FramedBricksBlock;
 import net.mcreator.chemically.block.EndstonePillarBlock;
 import net.mcreator.chemically.block.ElectromagneticFieldGeneratorBlock;
 import net.mcreator.chemically.block.DeepslateSquaresBlock;
@@ -65,6 +68,7 @@ import net.mcreator.chemically.block.ChiseledPurpurBlock;
 import net.mcreator.chemically.block.ChiseledEndstoneBlock;
 import net.mcreator.chemically.block.CautionBlock;
 import net.mcreator.chemically.block.BronzeBlockBlock;
+import net.mcreator.chemically.block.BorderedBricksBlock;
 import net.mcreator.chemically.block.AsphaltBlock;
 import net.mcreator.chemically.block.AsbestosBlock;
 import net.mcreator.chemically.block.AquamarineBlockBlock;
@@ -136,4 +140,8 @@ public class ChemicallyModBlocks {
 	public static final RegistryObject<Block> SULFUR_BLOCK = REGISTRY.register("sulfur_block", () -> new SulfurBlockBlock());
 	public static final RegistryObject<Block> QUARTZ_LAMP_ACTIVE = REGISTRY.register("quartz_lamp_active", () -> new QuartzLampActiveBlock());
 	public static final RegistryObject<Block> SANDSTONE_FIRE_TRAP_IGNITED = REGISTRY.register("sandstone_fire_trap_ignited", () -> new SandstoneFireTrapIgnitedBlock());
+	public static final RegistryObject<Block> FRAMED_BRICKS = REGISTRY.register("framed_bricks", () -> new FramedBricksBlock());
+	public static final RegistryObject<Block> BORDERED_BRICKS = REGISTRY.register("bordered_bricks", () -> new BorderedBricksBlock());
+	public static final RegistryObject<Block> GREEN_LAMP = REGISTRY.register("green_lamp", () -> new GreenLampBlock());
+	public static final RegistryObject<Block> GREEN_LAMP_ON = REGISTRY.register("green_lamp_on", () -> new GreenLampOnBlock());
 }

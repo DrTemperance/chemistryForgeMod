@@ -28,6 +28,10 @@
     "chemically:raw_uranium_block",
     "chemically:time_crystal_block",
     "chemically:lead_block",
-    "chemically:sandstone_fire_trap_ignited"
+    "chemically:sandstone_fire_trap_ignited",
+    "chemically:framed_bricks",
+    "chemically:bordered_bricks",
+    "chemically:green_lamp",
+    "chemically:green_lamp_on"
   ]
 }

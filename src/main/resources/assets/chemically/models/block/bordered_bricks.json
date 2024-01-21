@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemically:block/halflumber_brick_border",
+    "up": "chemically:block/halflumber_brick_border",
+    "north": "chemically:block/halflumber_brick_border",
+    "east": "chemically:block/halflumber_brick_border",
+    "south": "chemically:block/halflumber_brick_border",
+    "west": "chemically:block/halflumber_brick_border",
+    "particle": "chemically:block/halflumber_brick_border"
+  },
+  "render_type": "solid"
+}

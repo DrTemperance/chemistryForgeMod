@@ -1,0 +1,10 @@
+{
+  "parent": "chemically:custom/g_lamp",
+  "textures": {
+    "all": "chemically:block/g_lamp",
+    "particle": "chemically:block/steel_tank_top",
+    "0": "chemically:block/g_lamp",
+    "1": "chemically:block/g_lamp"
+  },
+  "render_type": "cutout"
+}

@@ -25,6 +25,9 @@ import net.mcreator.chemically.procedures.SCANNERPropertyValueProviderProcedure;
 import net.mcreator.chemically.procedures.LithiumIonBatteryPropertyValueProviderProcedure;
 import net.mcreator.chemically.procedures.GravityGunPropertyValueProviderProcedure;
 import net.mcreator.chemically.procedures.FuelCanisterPropertyValueProviderProcedure;
+import net.mcreator.chemically.procedures.ElectriceLighterPropertyValueProviderProcedure;
+import net.mcreator.chemically.procedures.ElectricLighterPropertyValueProviderProcedure;
+import net.mcreator.chemically.procedures.ElectricLighterActivePropertyValueProviderProcedure;
 import net.mcreator.chemically.procedures.BeakerPropertyValueProviderProcedure;
 import net.mcreator.chemically.procedures.BeakerPropertyValueProvider3Procedure;
 import net.mcreator.chemically.procedures.BeakerPropertyValueProvider2Procedure;
@@ -87,6 +90,7 @@ import net.mcreator.chemically.item.JadeItem;
 import net.mcreator.chemically.item.IronRodItem;
 import net.mcreator.chemically.item.IodineItem;
 import net.mcreator.chemically.item.HydrogenItem;
+import net.mcreator.chemically.item.HatItem;
 import net.mcreator.chemically.item.GravityGunItem;
 import net.mcreator.chemically.item.GoldRodItem;
 import net.mcreator.chemically.item.GasCylinderItem;
@@ -98,6 +102,7 @@ import net.mcreator.chemically.item.EphedraSeedsItem;
 import net.mcreator.chemically.item.EphedraItem;
 import net.mcreator.chemically.item.EnginePistonItem;
 import net.mcreator.chemically.item.ElectrumIngotItem;
+import net.mcreator.chemically.item.ElectricLighterItem;
 import net.mcreator.chemically.item.CyanideItem;
 import net.mcreator.chemically.item.CopperWireItem;
 import net.mcreator.chemically.item.CopperSwordItem;
@@ -313,6 +318,12 @@ public class ChemicallyModItems {
 	public static final RegistryObject<Item> ALUMINUM_HOE = REGISTRY.register("aluminum_hoe", () -> new AluminumHoeItem());
 	public static final RegistryObject<Item> QUARTZ_LAMP_ACTIVE = block(ChemicallyModBlocks.QUARTZ_LAMP_ACTIVE);
 	public static final RegistryObject<Item> SANDSTONE_FIRE_TRAP_IGNITED = block(ChemicallyModBlocks.SANDSTONE_FIRE_TRAP_IGNITED);
+	public static final RegistryObject<Item> FRAMED_BRICKS = block(ChemicallyModBlocks.FRAMED_BRICKS);
+	public static final RegistryObject<Item> BORDERED_BRICKS = block(ChemicallyModBlocks.BORDERED_BRICKS);
+	public static final RegistryObject<Item> GREEN_LAMP = block(ChemicallyModBlocks.GREEN_LAMP);
+	public static final RegistryObject<Item> GREEN_LAMP_ON = block(ChemicallyModBlocks.GREEN_LAMP_ON);
+	public static final RegistryObject<Item> ELECTRIC_LIGHTER = REGISTRY.register("electric_lighter", () -> new ElectricLighterItem());
+	public static final RegistryObject<Item> HAT = REGISTRY.register("hat", () -> new HatItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
@@ -340,6 +351,12 @@ public class ChemicallyModItems {
 			ItemProperties.register(GRAVITY_GUN.get(), new ResourceLocation("chemically:gravity_gun_active"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GravityGunPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(PORTABLE_LPMDS.get(), new ResourceLocation("chemically:portable_lpmds_charge"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) LithiumIonBatteryPropertyValueProviderProcedure.execute(itemStackToRender));
+			ItemProperties.register(ELECTRIC_LIGHTER.get(), new ResourceLocation("chemically:electric_lighter_open"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) ElectricLighterPropertyValueProviderProcedure.execute(itemStackToRender));
+			ItemProperties.register(ELECTRIC_LIGHTER.get(), new ResourceLocation("chemically:electric_lighter_active"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) ElectricLighterActivePropertyValueProviderProcedure.execute(itemStackToRender));
+			ItemProperties.register(ELECTRIC_LIGHTER.get(), new ResourceLocation("chemically:electric_lighter_maxenergy"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) ElectriceLighterPropertyValueProviderProcedure.execute(itemStackToRender));
 		});
 	}
 }
