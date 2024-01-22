@@ -5880,7 +5880,7 @@
       "name": "ElectricLighterActivePropertyValueProvider",
       "type": "procedure",
       "sortid": 355,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter_active_property_value_provider",
       "metadata": {
@@ -5901,7 +5901,7 @@
       "name": "ElectriceLighterPropertyValueProvider",
       "type": "procedure",
       "sortid": 368,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electrice_lighter_property_value_provider",
       "metadata": {
@@ -5937,7 +5937,7 @@
       "name": "ElectricLighterItemIsCraftedsmelted",
       "type": "procedure",
       "sortid": 367,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter_item_is_craftedsmelted",
       "metadata": {
@@ -5956,7 +5956,7 @@
       "name": "ElectricLighterRightclicked",
       "type": "procedure",
       "sortid": 356,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter_rightclicked",
       "metadata": {
@@ -5996,7 +5996,7 @@
       "name": "GreenLampRedstoneOn",
       "type": "procedure",
       "sortid": 351,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green_lamp_redstone_on",
       "metadata": {
@@ -6028,7 +6028,7 @@
       "name": "CockroachDisplayCondition",
       "type": "procedure",
       "sortid": 360,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cockroach_display_condition",
       "metadata": {
@@ -6049,7 +6049,7 @@
       "name": "CockroachOnInitialEntitySpawn",
       "type": "procedure",
       "sortid": 361,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cockroach_on_initial_entity_spawn",
       "metadata": {
@@ -6069,7 +6069,7 @@
       "name": "ElectricLighterSpecialInformation",
       "type": "procedure",
       "sortid": 369,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter_special_information",
       "metadata": {
@@ -6089,7 +6089,7 @@
       "name": "CockroachEntityIsHurt",
       "type": "procedure",
       "sortid": 364,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cockroach_entity_is_hurt",
       "metadata": {
@@ -6109,7 +6109,7 @@
       "name": "CockroachEntityDies",
       "type": "procedure",
       "sortid": 363,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cockroach_entity_dies",
       "metadata": {
@@ -6145,7 +6145,7 @@
       "name": "ElectricLighterPropertyValueProvider",
       "type": "procedure",
       "sortid": 354,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter_property_value_provider",
       "metadata": {
@@ -6166,7 +6166,7 @@
       "name": "ElectricLighterRightclickedOnBlock",
       "type": "procedure",
       "sortid": 357,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter_rightclicked_on_block",
       "metadata": {
@@ -6203,7 +6203,7 @@
       "name": "ElectricLighter",
       "type": "item",
       "sortid": 353,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter",
       "metadata": {
@@ -6219,7 +6219,7 @@
       "name": "ElectricLighterItemInInventoryTick",
       "type": "procedure",
       "sortid": 358,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "electric_lighter_item_in_inventory_tick",
       "metadata": {
@@ -6259,7 +6259,7 @@
       "name": "GreenLampOnRedstoneOff",
       "type": "procedure",
       "sortid": 352,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green_lamp_on_redstone_off",
       "metadata": {
@@ -6291,7 +6291,7 @@
       "name": "GreenLamp",
       "type": "block",
       "sortid": 349,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green_lamp",
       "metadata": {
@@ -6325,7 +6325,7 @@
       "name": "Hat",
       "type": "item",
       "sortid": 359,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "hat",
       "metadata": {
@@ -6339,7 +6339,7 @@
       "name": "CockroachRightClickedOnEntity",
       "type": "procedure",
       "sortid": 362,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cockroach_right_clicked_on_entity",
       "metadata": {
@@ -6557,8 +6557,8 @@
       "block.chemically.sandstone_fire_trap_ignited": "Sandstone Fire Trap Ignited",
       "effect.chemically.coca_high": "Coca High",
       "item.chemically.light_bulb": "Light Bulb",
-      "item.chemically.uranium_armor_leggings": "Uranium Leggings",
       "item.chemically.advanced_computation_circuit": "Advanced Computation Circuit",
+      "item.chemically.uranium_armor_leggings": "Uranium Leggings",
       "item.chemically.steel_leggings": "Steel Leggings",
       "item.chemically.lead_armor_leggings": "Lead Leggings",
       "block.chemically.temporal_lamp": "Temporal Lamp",
@@ -6576,8 +6576,8 @@
       "item.chemically.gas_cylinder": "Gas Cylinder",
       "advancements.max_conveyer.descr": "Charge a conveyer belt to max speed.",
       "item.chemically.aluminum_armor_helmet": "Aluminum Helmet",
-      "item.chemically.phosphorous": "Phosphorous",
       "item.chemically.bronze_ingot": "Bronze Ingot",
+      "item.chemically.phosphorous": "Phosphorous",
       "item.chemically.beaker": "Beaker",
       "block.chemically.superconductive_magnet": "Superconductive Magnet",
       "subtitles.entity.cockroach_hurt": "Cockroach Hit",
