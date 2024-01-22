@@ -667,8 +667,8 @@
       "registry_name": "beaker",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/beaker.json",
-          "src/main/java/net/mcreator/chemically/item/BeakerItem.java"
+          "src/main/java/net/mcreator/chemically/item/BeakerItem.java",
+          "src/main/resources/assets/chemically/models/item/beaker.json"
         ]
       },
       "path": "~/Tags"
@@ -954,10 +954,10 @@
       "registry_name": "conveyer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/conveyer.json",
           "src/main/resources/assets/chemically/models/item/conveyer.json",
-          "src/main/java/net/mcreator/chemically/block/ConveyerBlock.java",
+          "src/main/resources/assets/chemically/blockstates/conveyer.json",
           "src/main/java/net/mcreator/chemically/block/entity/ConveyerBlockEntity.java",
+          "src/main/java/net/mcreator/chemically/block/ConveyerBlock.java",
           "src/main/resources/assets/chemically/models/block/conveyer.json"
         ]
       }
@@ -971,8 +971,8 @@
       "registry_name": "polarity_device",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/polarity_device.json",
           "src/main/resources/assets/chemically/blockstates/polarity_device.json",
+          "src/main/resources/assets/chemically/models/item/polarity_device.json",
           "src/main/java/net/mcreator/chemically/block/PolarityDeviceBlock.java",
           "src/main/resources/assets/chemically/models/block/polarity_device.json"
         ]
@@ -1097,8 +1097,8 @@
       "registry_name": "wrench",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/WrenchItem.java",
-          "src/main/resources/assets/chemically/models/item/wrench.json"
+          "src/main/resources/assets/chemically/models/item/wrench.json",
+          "src/main/java/net/mcreator/chemically/item/WrenchItem.java"
         ]
       },
       "path": "~/Functional Tools"
@@ -1156,8 +1156,8 @@
       "registry_name": "copper_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/CopperRodItem.java",
-          "src/main/resources/assets/chemically/models/item/copper_rod.json"
+          "src/main/resources/assets/chemically/models/item/copper_rod.json",
+          "src/main/java/net/mcreator/chemically/item/CopperRodItem.java"
         ]
       }
     },
@@ -1170,8 +1170,8 @@
       "registry_name": "iron_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/IronRodItem.java",
-          "src/main/resources/assets/chemically/models/item/iron_rod.json"
+          "src/main/resources/assets/chemically/models/item/iron_rod.json",
+          "src/main/java/net/mcreator/chemically/item/IronRodItem.java"
         ]
       }
     },
@@ -1184,8 +1184,8 @@
       "registry_name": "nickel_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/NickelRodItem.java",
-          "src/main/resources/assets/chemically/models/item/nickel_rod.json"
+          "src/main/resources/assets/chemically/models/item/nickel_rod.json",
+          "src/main/java/net/mcreator/chemically/item/NickelRodItem.java"
         ]
       }
     },
@@ -1198,8 +1198,8 @@
       "registry_name": "copper_wire",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/CopperWireItem.java",
-          "src/main/resources/assets/chemically/models/item/copper_wire.json"
+          "src/main/resources/assets/chemically/models/item/copper_wire.json",
+          "src/main/java/net/mcreator/chemically/item/CopperWireItem.java"
         ]
       }
     },
@@ -1212,8 +1212,8 @@
       "registry_name": "redstone_wire",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/redstone_wire.json",
-          "src/main/java/net/mcreator/chemically/item/RedstoneWireItem.java"
+          "src/main/java/net/mcreator/chemically/item/RedstoneWireItem.java",
+          "src/main/resources/assets/chemically/models/item/redstone_wire.json"
         ]
       }
     },
@@ -1226,8 +1226,8 @@
       "registry_name": "steel_wire_spool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/steel_wire_spool.json",
-          "src/main/java/net/mcreator/chemically/item/SteelWireSpoolItem.java"
+          "src/main/java/net/mcreator/chemically/item/SteelWireSpoolItem.java",
+          "src/main/resources/assets/chemically/models/item/steel_wire_spool.json"
         ]
       }
     },
@@ -1254,8 +1254,8 @@
       "registry_name": "steel_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/SteelIngotItem.java",
-          "src/main/resources/assets/chemically/models/item/steel_ingot.json"
+          "src/main/resources/assets/chemically/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/chemically/item/SteelIngotItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -1630,11 +1630,11 @@
       "registry_name": "power_cell",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/block/power_cell.json",
-          "src/main/java/net/mcreator/chemically/block/entity/PowerCellBlockEntity.java",
-          "src/main/java/net/mcreator/chemically/block/PowerCellBlock.java",
           "src/main/resources/assets/chemically/models/item/power_cell.json",
-          "src/main/resources/assets/chemically/blockstates/power_cell.json"
+          "src/main/java/net/mcreator/chemically/block/entity/PowerCellBlockEntity.java",
+          "src/main/resources/assets/chemically/models/block/power_cell.json",
+          "src/main/resources/assets/chemically/blockstates/power_cell.json",
+          "src/main/java/net/mcreator/chemically/block/PowerCellBlock.java"
         ]
       }
     },
@@ -1743,10 +1743,10 @@
       "registry_name": "electromagnetic_field_generator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/ElectromagneticFieldGeneratorBlock.java",
-          "src/main/resources/assets/chemically/models/block/electromagnetic_field_generator.json",
+          "src/main/resources/assets/chemically/models/item/electromagnetic_field_generator.json",
           "src/main/resources/assets/chemically/blockstates/electromagnetic_field_generator.json",
-          "src/main/resources/assets/chemically/models/item/electromagnetic_field_generator.json"
+          "src/main/resources/assets/chemically/models/block/electromagnetic_field_generator.json",
+          "src/main/java/net/mcreator/chemically/block/ElectromagneticFieldGeneratorBlock.java"
         ]
       }
     },
@@ -1759,11 +1759,11 @@
       "registry_name": "lpmds",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/entity/LpmdsBlockEntity.java",
           "src/main/resources/assets/chemically/models/item/lpmds.json",
-          "src/main/resources/assets/chemically/models/block/lpmds.json",
           "src/main/resources/assets/chemically/blockstates/lpmds.json",
-          "src/main/java/net/mcreator/chemically/block/LpmdsBlock.java"
+          "src/main/resources/assets/chemically/models/block/lpmds.json",
+          "src/main/java/net/mcreator/chemically/block/LpmdsBlock.java",
+          "src/main/java/net/mcreator/chemically/block/entity/LpmdsBlockEntity.java"
         ]
       }
     },
@@ -1776,8 +1776,8 @@
       "registry_name": "nanophotonic_electron_accelerator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/NanophotonicElectronAcceleratorItem.java",
-          "src/main/resources/assets/chemically/models/item/nanophotonic_electron_accelerator.json"
+          "src/main/resources/assets/chemically/models/item/nanophotonic_electron_accelerator.json",
+          "src/main/java/net/mcreator/chemically/item/NanophotonicElectronAcceleratorItem.java"
         ]
       }
     },
@@ -1790,10 +1790,10 @@
       "registry_name": "superconductive_magnet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/superconductive_magnet.json",
+          "src/main/resources/assets/chemically/blockstates/superconductive_magnet.json",
           "src/main/java/net/mcreator/chemically/block/SuperconductiveMagnetBlock.java",
-          "src/main/resources/assets/chemically/models/block/superconductive_magnet.json",
-          "src/main/resources/assets/chemically/blockstates/superconductive_magnet.json"
+          "src/main/resources/assets/chemically/models/item/superconductive_magnet.json",
+          "src/main/resources/assets/chemically/models/block/superconductive_magnet.json"
         ]
       },
       "path": "~/Chemistry"
@@ -1807,10 +1807,10 @@
       "registry_name": "rf_cavity_resonator",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chemically/models/block/rf_cavity_resonator.json",
           "src/main/resources/assets/chemically/blockstates/rf_cavity_resonator.json",
           "src/main/java/net/mcreator/chemically/block/RFCavityResonatorBlock.java",
-          "src/main/resources/assets/chemically/models/item/rf_cavity_resonator.json",
-          "src/main/resources/assets/chemically/models/block/rf_cavity_resonator.json"
+          "src/main/resources/assets/chemically/models/item/rf_cavity_resonator.json"
         ]
       }
     },
@@ -1824,9 +1824,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/models/block/threshold_structure_block.json",
-          "src/main/java/net/mcreator/chemically/block/ThresholdStructureBlockBlock.java",
           "src/main/resources/assets/chemically/models/item/threshold_structure_block.json",
-          "src/main/resources/assets/chemically/blockstates/threshold_structure_block.json"
+          "src/main/resources/assets/chemically/blockstates/threshold_structure_block.json",
+          "src/main/java/net/mcreator/chemically/block/ThresholdStructureBlockBlock.java"
         ]
       }
     },
@@ -1840,9 +1840,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/models/block/high_velocity_rotor.json",
+          "src/main/java/net/mcreator/chemically/block/HighVelocityRotorBlock.java",
           "src/main/resources/assets/chemically/models/item/high_velocity_rotor.json",
-          "src/main/resources/assets/chemically/blockstates/high_velocity_rotor.json",
-          "src/main/java/net/mcreator/chemically/block/HighVelocityRotorBlock.java"
+          "src/main/resources/assets/chemically/blockstates/high_velocity_rotor.json"
         ]
       }
     },
@@ -1855,8 +1855,8 @@
       "registry_name": "portable_lpmds",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/portable_lpmds.json",
-          "src/main/java/net/mcreator/chemically/item/PortableLPMDSItem.java"
+          "src/main/java/net/mcreator/chemically/item/PortableLPMDSItem.java",
+          "src/main/resources/assets/chemically/models/item/portable_lpmds.json"
         ]
       },
       "path": "~/Functional Tools"
@@ -1919,11 +1919,11 @@
       "registry_name": "faraday_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/faraday_armor_chestplate.json",
           "src/main/resources/assets/chemically/models/item/faraday_armor_helmet.json",
           "src/main/resources/assets/chemically/models/item/faraday_armor_boots.json",
-          "src/main/resources/assets/chemically/models/item/faraday_armor_leggings.json",
-          "src/main/java/net/mcreator/chemically/item/FaradayArmorItem.java"
+          "src/main/java/net/mcreator/chemically/item/FaradayArmorItem.java",
+          "src/main/resources/assets/chemically/models/item/faraday_armor_chestplate.json",
+          "src/main/resources/assets/chemically/models/item/faraday_armor_leggings.json"
         ]
       },
       "path": "~/Functional Tools"
@@ -1937,11 +1937,11 @@
       "registry_name": "steel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/steel_boots.json",
+          "src/main/resources/assets/chemically/models/item/steel_chestplate.json",
           "src/main/java/net/mcreator/chemically/item/SteelItem.java",
           "src/main/resources/assets/chemically/models/item/steel_helmet.json",
           "src/main/resources/assets/chemically/models/item/steel_leggings.json",
-          "src/main/resources/assets/chemically/models/item/steel_chestplate.json"
+          "src/main/resources/assets/chemically/models/item/steel_boots.json"
         ]
       },
       "path": "~/Functional Tools"
@@ -1955,10 +1955,10 @@
       "registry_name": "sinusoidal_wave",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/SinusoidalWaveBlock.java",
-          "src/main/java/net/mcreator/chemically/block/entity/SinusoidalWaveBlockEntity.java",
           "src/main/resources/assets/chemically/models/item/sinusoidal_wave.json",
+          "src/main/java/net/mcreator/chemically/block/entity/SinusoidalWaveBlockEntity.java",
           "src/main/resources/assets/chemically/models/block/sinusoidal_wave.json",
+          "src/main/java/net/mcreator/chemically/block/SinusoidalWaveBlock.java",
           "src/main/resources/assets/chemically/blockstates/sinusoidal_wave.json"
         ]
       }
@@ -2064,13 +2064,13 @@
       "registry_name": "uranium_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/chemically/worldgen/configured_feature/uranium_ore.json",
+          "src/main/resources/assets/chemically/blockstates/uranium_ore.json",
           "src/main/resources/assets/chemically/models/item/uranium_ore.json",
-          "src/main/resources/data/chemically/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/data/chemically/worldgen/placed_feature/uranium_ore.json",
           "src/main/resources/assets/chemically/models/block/uranium_ore.json",
           "src/main/java/net/mcreator/chemically/block/UraniumOreBlock.java",
-          "src/main/resources/data/chemically/worldgen/placed_feature/uranium_ore.json",
-          "src/main/resources/assets/chemically/blockstates/uranium_ore.json",
-          "src/main/resources/data/chemically/worldgen/configured_feature/uranium_ore.json"
+          "src/main/resources/data/chemically/forge/biome_modifier/uranium_ore_biome_modifier.json"
         ]
       },
       "path": "~/Chemistry"
@@ -2085,9 +2085,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/models/item/uranium_block.json",
+          "src/main/resources/assets/chemically/models/block/uranium_block.json",
           "src/main/resources/assets/chemically/blockstates/uranium_block.json",
-          "src/main/java/net/mcreator/chemically/block/UraniumBlockBlock.java",
-          "src/main/resources/assets/chemically/models/block/uranium_block.json"
+          "src/main/java/net/mcreator/chemically/block/UraniumBlockBlock.java"
         ]
       },
       "path": "~/Chemistry"
@@ -2158,8 +2158,8 @@
       "registry_name": "uranium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/uranium_axe.json",
-          "src/main/java/net/mcreator/chemically/item/UraniumAxeItem.java"
+          "src/main/java/net/mcreator/chemically/item/UraniumAxeItem.java",
+          "src/main/resources/assets/chemically/models/item/uranium_axe.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2203,8 +2203,8 @@
       "registry_name": "uranium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/uranium_hoe.json",
-          "src/main/java/net/mcreator/chemically/item/UraniumHoeItem.java"
+          "src/main/java/net/mcreator/chemically/item/UraniumHoeItem.java",
+          "src/main/resources/assets/chemically/models/item/uranium_hoe.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2288,11 +2288,11 @@
       "registry_name": "uranium_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/UraniumArmorItem.java",
-          "src/main/resources/assets/chemically/models/item/uranium_armor_chestplate.json",
-          "src/main/resources/assets/chemically/models/item/uranium_armor_boots.json",
           "src/main/resources/assets/chemically/models/item/uranium_armor_helmet.json",
-          "src/main/resources/assets/chemically/models/item/uranium_armor_leggings.json"
+          "src/main/resources/assets/chemically/models/item/uranium_armor_chestplate.json",
+          "src/main/resources/assets/chemically/models/item/uranium_armor_leggings.json",
+          "src/main/java/net/mcreator/chemically/item/UraniumArmorItem.java",
+          "src/main/resources/assets/chemically/models/item/uranium_armor_boots.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2362,11 +2362,11 @@
       "registry_name": "copper_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/CopperArmorItem.java",
-          "src/main/resources/assets/chemically/models/item/copper_armor_chestplate.json",
+          "src/main/resources/assets/chemically/models/item/copper_armor_leggings.json",
           "src/main/resources/assets/chemically/models/item/copper_armor_boots.json",
           "src/main/resources/assets/chemically/models/item/copper_armor_helmet.json",
-          "src/main/resources/assets/chemically/models/item/copper_armor_leggings.json"
+          "src/main/java/net/mcreator/chemically/item/CopperArmorItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_armor_chestplate.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2451,8 +2451,8 @@
       "registry_name": "copper_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/copper_axe.json",
-          "src/main/java/net/mcreator/chemically/item/CopperAxeItem.java"
+          "src/main/java/net/mcreator/chemically/item/CopperAxeItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_axe.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2466,8 +2466,8 @@
       "registry_name": "copper_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/CopperSwordItem.java",
-          "src/main/resources/assets/chemically/models/item/copper_sword.json"
+          "src/main/resources/assets/chemically/models/item/copper_sword.json",
+          "src/main/java/net/mcreator/chemically/item/CopperSwordItem.java"
         ]
       },
       "path": "~/Filler Tools"
@@ -2481,8 +2481,8 @@
       "registry_name": "copper_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/CopperShovelItem.java",
-          "src/main/resources/assets/chemically/models/item/copper_shovel.json"
+          "src/main/resources/assets/chemically/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/chemically/item/CopperShovelItem.java"
         ]
       },
       "path": "~/Filler Tools"
@@ -2496,8 +2496,8 @@
       "registry_name": "copper_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/copper_hoe.json",
-          "src/main/java/net/mcreator/chemically/item/CopperHoeItem.java"
+          "src/main/java/net/mcreator/chemically/item/CopperHoeItem.java",
+          "src/main/resources/assets/chemically/models/item/copper_hoe.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2581,8 +2581,8 @@
       "registry_name": "circuit_board",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/CircuitBoardItem.java",
-          "src/main/resources/assets/chemically/models/item/circuit_board.json"
+          "src/main/resources/assets/chemically/models/item/circuit_board.json",
+          "src/main/java/net/mcreator/chemically/item/CircuitBoardItem.java"
         ]
       }
     },
@@ -2595,8 +2595,8 @@
       "registry_name": "lead_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/lead_ingot.json",
-          "src/main/java/net/mcreator/chemically/item/LeadIngotItem.java"
+          "src/main/java/net/mcreator/chemically/item/LeadIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/lead_ingot.json"
         ]
       },
       "path": "~/Chemistry"
@@ -2610,13 +2610,13 @@
       "registry_name": "lead_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/lead_ore.json",
-          "src/main/resources/data/chemically/worldgen/configured_feature/lead_ore.json",
           "src/main/resources/data/chemically/worldgen/placed_feature/lead_ore.json",
+          "src/main/resources/data/chemically/worldgen/configured_feature/lead_ore.json",
           "src/main/resources/assets/chemically/models/block/lead_ore.json",
-          "src/main/java/net/mcreator/chemically/block/LeadOreBlock.java",
+          "src/main/resources/assets/chemically/models/item/lead_ore.json",
           "src/main/resources/assets/chemically/blockstates/lead_ore.json",
-          "src/main/resources/data/chemically/forge/biome_modifier/lead_ore_biome_modifier.json"
+          "src/main/resources/data/chemically/forge/biome_modifier/lead_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/chemically/block/LeadOreBlock.java"
         ]
       },
       "path": "~/Chemistry"
@@ -2630,10 +2630,10 @@
       "registry_name": "lead_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/lead_block.json",
-          "src/main/resources/assets/chemically/blockstates/lead_block.json",
           "src/main/resources/assets/chemically/models/block/lead_block.json",
-          "src/main/java/net/mcreator/chemically/block/LeadBlockBlock.java"
+          "src/main/resources/assets/chemically/models/item/lead_block.json",
+          "src/main/java/net/mcreator/chemically/block/LeadBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/lead_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -2734,8 +2734,8 @@
       "registry_name": "lead_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/lead_shovel.json",
-          "src/main/java/net/mcreator/chemically/item/LeadShovelItem.java"
+          "src/main/java/net/mcreator/chemically/item/LeadShovelItem.java",
+          "src/main/resources/assets/chemically/models/item/lead_shovel.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2749,8 +2749,8 @@
       "registry_name": "lead_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/lead_hoe.json",
-          "src/main/java/net/mcreator/chemically/item/LeadHoeItem.java"
+          "src/main/java/net/mcreator/chemically/item/LeadHoeItem.java",
+          "src/main/resources/assets/chemically/models/item/lead_hoe.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2834,11 +2834,11 @@
       "registry_name": "lead_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/lead_armor_helmet.json",
           "src/main/resources/assets/chemically/models/item/lead_armor_leggings.json",
-          "src/main/resources/assets/chemically/models/item/lead_armor_chestplate.json",
           "src/main/java/net/mcreator/chemically/item/LeadArmorItem.java",
-          "src/main/resources/assets/chemically/models/item/lead_armor_boots.json"
+          "src/main/resources/assets/chemically/models/item/lead_armor_boots.json",
+          "src/main/resources/assets/chemically/models/item/lead_armor_helmet.json",
+          "src/main/resources/assets/chemically/models/item/lead_armor_chestplate.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -2937,13 +2937,13 @@
       "registry_name": "uranium_deepslate_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/uranium_deepslate_ore.json",
-          "src/main/resources/data/chemically/worldgen/configured_feature/uranium_deepslate_ore.json",
-          "src/main/resources/assets/chemically/models/item/uranium_deepslate_ore.json",
+          "src/main/resources/assets/chemically/models/block/uranium_deepslate_ore.json",
           "src/main/java/net/mcreator/chemically/block/UraniumDeepslateOreBlock.java",
-          "src/main/resources/data/chemically/forge/biome_modifier/uranium_deepslate_ore_biome_modifier.json",
+          "src/main/resources/assets/chemically/models/item/uranium_deepslate_ore.json",
           "src/main/resources/data/chemically/worldgen/placed_feature/uranium_deepslate_ore.json",
-          "src/main/resources/assets/chemically/models/block/uranium_deepslate_ore.json"
+          "src/main/resources/data/chemically/forge/biome_modifier/uranium_deepslate_ore_biome_modifier.json",
+          "src/main/resources/data/chemically/worldgen/configured_feature/uranium_deepslate_ore.json",
+          "src/main/resources/assets/chemically/blockstates/uranium_deepslate_ore.json"
         ]
       },
       "path": "~/Chemistry"
@@ -2958,9 +2958,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/chemically/block/RawUraniumBlockBlock.java",
+          "src/main/resources/assets/chemically/models/block/raw_uranium_block.json",
           "src/main/resources/assets/chemically/blockstates/raw_uranium_block.json",
-          "src/main/resources/assets/chemically/models/item/raw_uranium_block.json",
-          "src/main/resources/assets/chemically/models/block/raw_uranium_block.json"
+          "src/main/resources/assets/chemically/models/item/raw_uranium_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -3030,11 +3030,11 @@
       "registry_name": "hydraulic_press",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/hydraulic_press.json",
-          "src/main/resources/assets/chemically/models/block/hydraulic_press.json",
-          "src/main/java/net/mcreator/chemically/block/HydraulicPressBlock.java",
+          "src/main/java/net/mcreator/chemically/block/entity/HydraulicPressBlockEntity.java",
           "src/main/resources/assets/chemically/models/item/hydraulic_press.json",
-          "src/main/java/net/mcreator/chemically/block/entity/HydraulicPressBlockEntity.java"
+          "src/main/resources/assets/chemically/models/block/hydraulic_press.json",
+          "src/main/resources/assets/chemically/blockstates/hydraulic_press.json",
+          "src/main/java/net/mcreator/chemically/block/HydraulicPressBlock.java"
         ]
       }
     },
@@ -3151,8 +3151,8 @@
       "registry_name": "hydraulic_press_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/client/gui/HydraulicPressGUIScreen.java",
-          "src/main/java/net/mcreator/chemically/world/inventory/HydraulicPressGUIMenu.java"
+          "src/main/java/net/mcreator/chemically/world/inventory/HydraulicPressGUIMenu.java",
+          "src/main/java/net/mcreator/chemically/client/gui/HydraulicPressGUIScreen.java"
         ]
       },
       "path": "~/GUIs and such"
@@ -3166,11 +3166,11 @@
       "registry_name": "accelerator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/entity/AcceleratorBlockEntity.java",
-          "src/main/resources/assets/chemically/models/item/accelerator.json",
           "src/main/resources/assets/chemically/blockstates/accelerator.json",
+          "src/main/java/net/mcreator/chemically/block/entity/AcceleratorBlockEntity.java",
+          "src/main/resources/assets/chemically/models/block/accelerator.json",
           "src/main/java/net/mcreator/chemically/block/AcceleratorBlock.java",
-          "src/main/resources/assets/chemically/models/block/accelerator.json"
+          "src/main/resources/assets/chemically/models/item/accelerator.json"
         ]
       }
     },
@@ -3344,10 +3344,10 @@
       "registry_name": "quartz_lamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/block/quartz_lamp.json",
           "src/main/resources/assets/chemically/models/item/quartz_lamp.json",
+          "src/main/java/net/mcreator/chemically/block/QuartzLampBlock.java",
           "src/main/resources/assets/chemically/blockstates/quartz_lamp.json",
-          "src/main/java/net/mcreator/chemically/block/QuartzLampBlock.java"
+          "src/main/resources/assets/chemically/models/block/quartz_lamp.json"
         ]
       },
       "path": "~/Procedures"
@@ -3361,10 +3361,10 @@
       "registry_name": "quartz_lamp_active",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/quartz_lamp_active.json",
           "src/main/resources/assets/chemically/models/block/quartz_lamp_active.json",
+          "src/main/resources/assets/chemically/models/item/quartz_lamp_active.json",
           "src/main/java/net/mcreator/chemically/block/QuartzLampActiveBlock.java",
-          "src/main/resources/assets/chemically/models/item/quartz_lamp_active.json"
+          "src/main/resources/assets/chemically/blockstates/quartz_lamp_active.json"
         ]
       }
     },
@@ -3441,10 +3441,10 @@
       "registry_name": "powdered_redstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/powdered_redstone.json",
-          "src/main/java/net/mcreator/chemically/block/PowderedRedstineBlock.java",
           "src/main/resources/assets/chemically/models/item/powdered_redstone.json",
-          "src/main/resources/assets/chemically/models/block/powdered_redstone.json"
+          "src/main/resources/assets/chemically/blockstates/powdered_redstone.json",
+          "src/main/resources/assets/chemically/models/block/powdered_redstone.json",
+          "src/main/java/net/mcreator/chemically/block/PowderedRedstineBlock.java"
         ]
       }
     },
@@ -3549,9 +3549,9 @@
       "registry_name": "gravity_gun",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/gravity_gun.json",
+          "src/main/java/net/mcreator/chemically/item/GravityGunItem.java",
           "src/main/resources/assets/chemically/models/item/gravity_gun_0.json",
-          "src/main/java/net/mcreator/chemically/item/GravityGunItem.java"
+          "src/main/resources/assets/chemically/models/item/gravity_gun.json"
         ]
       },
       "path": "~/Functional Tools"
@@ -3726,9 +3726,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/models/item/cockroach_spawn_egg.json",
+          "src/main/resources/data/chemically/forge/biome_modifier/cockroach_biome_modifier.json",
           "src/main/java/net/mcreator/chemically/client/renderer/CockroachRenderer.java",
-          "src/main/java/net/mcreator/chemically/entity/CockroachEntity.java",
-          "src/main/resources/data/chemically/forge/biome_modifier/cockroach_biome_modifier.json"
+          "src/main/java/net/mcreator/chemically/entity/CockroachEntity.java"
         ]
       },
       "path": "~/Entities"
@@ -3742,8 +3742,8 @@
       "registry_name": "cockroach_wing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/CockroachWingItem.java",
-          "src/main/resources/assets/chemically/models/item/cockroach_wing.json"
+          "src/main/resources/assets/chemically/models/item/cockroach_wing.json",
+          "src/main/java/net/mcreator/chemically/item/CockroachWingItem.java"
         ]
       }
     },
@@ -3823,8 +3823,8 @@
       "registry_name": "everything",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/EverythingItem.java",
-          "src/main/resources/assets/chemically/models/item/everything.json"
+          "src/main/resources/assets/chemically/models/item/everything.json",
+          "src/main/java/net/mcreator/chemically/item/EverythingItem.java"
         ]
       }
     },
@@ -3837,10 +3837,10 @@
       "registry_name": "time_crystal_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chemically/blockstates/time_crystal_block.json",
           "src/main/resources/assets/chemically/models/block/time_crystal_block.json",
-          "src/main/resources/assets/chemically/models/item/time_crystal_block.json",
           "src/main/java/net/mcreator/chemically/block/TimeCrystalBlockBlock.java",
-          "src/main/resources/assets/chemically/blockstates/time_crystal_block.json"
+          "src/main/resources/assets/chemically/models/item/time_crystal_block.json"
         ]
       }
     },
@@ -3853,8 +3853,8 @@
       "registry_name": "time_crystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/time_crystal.json",
-          "src/main/java/net/mcreator/chemically/item/TimeCrystalItem.java"
+          "src/main/java/net/mcreator/chemically/item/TimeCrystalItem.java",
+          "src/main/resources/assets/chemically/models/item/time_crystal.json"
         ]
       }
     },
@@ -3867,10 +3867,10 @@
       "registry_name": "temporal_lamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/block/temporal_lamp.json",
+          "src/main/java/net/mcreator/chemically/block/TemporalLampBlock.java",
           "src/main/resources/assets/chemically/models/item/temporal_lamp.json",
-          "src/main/resources/assets/chemically/blockstates/temporal_lamp.json",
-          "src/main/java/net/mcreator/chemically/block/TemporalLampBlock.java"
+          "src/main/resources/assets/chemically/models/block/temporal_lamp.json",
+          "src/main/resources/assets/chemically/blockstates/temporal_lamp.json"
         ]
       }
     },
@@ -3883,10 +3883,10 @@
       "registry_name": "chiseled_purpur",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/chiseled_purpur.json",
-          "src/main/resources/assets/chemically/models/block/chiseled_purpur.json",
           "src/main/java/net/mcreator/chemically/block/ChiseledPurpurBlock.java",
-          "src/main/resources/assets/chemically/blockstates/chiseled_purpur.json"
+          "src/main/resources/assets/chemically/blockstates/chiseled_purpur.json",
+          "src/main/resources/assets/chemically/models/item/chiseled_purpur.json",
+          "src/main/resources/assets/chemically/models/block/chiseled_purpur.json"
         ]
       }
     },
@@ -3901,8 +3901,8 @@
         "files": [
           "src/main/java/net/mcreator/chemically/block/ObsidionBricksBlock.java",
           "src/main/resources/assets/chemically/blockstates/obsidian_bricks.json",
-          "src/main/resources/assets/chemically/models/block/obsidian_bricks.json",
-          "src/main/resources/assets/chemically/models/item/obsidian_bricks.json"
+          "src/main/resources/assets/chemically/models/item/obsidian_bricks.json",
+          "src/main/resources/assets/chemically/models/block/obsidian_bricks.json"
         ]
       }
     },
@@ -3915,10 +3915,10 @@
       "registry_name": "obsidian_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/obsidian_tiles.json",
-          "src/main/resources/assets/chemically/models/item/obsidian_tiles.json",
           "src/main/java/net/mcreator/chemically/block/ObsidianTilesBlock.java",
-          "src/main/resources/assets/chemically/models/block/obsidian_tiles.json"
+          "src/main/resources/assets/chemically/models/block/obsidian_tiles.json",
+          "src/main/resources/assets/chemically/models/item/obsidian_tiles.json",
+          "src/main/resources/assets/chemically/blockstates/obsidian_tiles.json"
         ]
       }
     },
@@ -3931,10 +3931,10 @@
       "registry_name": "deepslate_squares",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/DeepslateSquaresBlock.java",
-          "src/main/resources/assets/chemically/blockstates/deepslate_squares.json",
           "src/main/resources/assets/chemically/models/item/deepslate_squares.json",
-          "src/main/resources/assets/chemically/models/block/deepslate_squares.json"
+          "src/main/resources/assets/chemically/blockstates/deepslate_squares.json",
+          "src/main/resources/assets/chemically/models/block/deepslate_squares.json",
+          "src/main/java/net/mcreator/chemically/block/DeepslateSquaresBlock.java"
         ]
       }
     },
@@ -3947,10 +3947,10 @@
       "registry_name": "polished_endstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/PolishedEndstoneBlock.java",
+          "src/main/resources/assets/chemically/models/item/polished_endstone.json",
           "src/main/resources/assets/chemically/models/block/polished_endstone.json",
           "src/main/resources/assets/chemically/blockstates/polished_endstone.json",
-          "src/main/resources/assets/chemically/models/item/polished_endstone.json"
+          "src/main/java/net/mcreator/chemically/block/PolishedEndstoneBlock.java"
         ]
       }
     },
@@ -3963,10 +3963,10 @@
       "registry_name": "endstone_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/endstone_pillar.json",
           "src/main/resources/assets/chemically/blockstates/endstone_pillar.json",
-          "src/main/java/net/mcreator/chemically/block/EndstonePillarBlock.java",
-          "src/main/resources/assets/chemically/models/block/endstone_pillar.json"
+          "src/main/resources/assets/chemically/models/item/endstone_pillar.json",
+          "src/main/resources/assets/chemically/models/block/endstone_pillar.json",
+          "src/main/java/net/mcreator/chemically/block/EndstonePillarBlock.java"
         ]
       }
     },
@@ -3979,10 +3979,10 @@
       "registry_name": "sandstone_fire_trap",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/sandstone_fire_trap.json",
           "src/main/resources/assets/chemically/models/item/sandstone_fire_trap.json",
+          "src/main/java/net/mcreator/chemically/block/SandstoneFireTrapBlock.java",
           "src/main/resources/assets/chemically/models/block/sandstone_fire_trap.json",
-          "src/main/java/net/mcreator/chemically/block/SandstoneFireTrapBlock.java"
+          "src/main/resources/assets/chemically/blockstates/sandstone_fire_trap.json"
         ]
       }
     },
@@ -4089,8 +4089,8 @@
         "files": [
           "src/main/resources/assets/chemically/blockstates/witherite.json",
           "src/main/resources/assets/chemically/models/item/witherite.json",
-          "src/main/java/net/mcreator/chemically/block/WitheriteBlock.java",
-          "src/main/resources/assets/chemically/models/block/witherite.json"
+          "src/main/resources/assets/chemically/models/block/witherite.json",
+          "src/main/java/net/mcreator/chemically/block/WitheriteBlock.java"
         ]
       }
     },
@@ -4104,9 +4104,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/models/item/raw_lead_block.json",
-          "src/main/resources/assets/chemically/models/block/raw_lead_block.json",
+          "src/main/resources/assets/chemically/blockstates/raw_lead_block.json",
           "src/main/java/net/mcreator/chemically/block/RawLeadBlock.java",
-          "src/main/resources/assets/chemically/blockstates/raw_lead_block.json"
+          "src/main/resources/assets/chemically/models/block/raw_lead_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -4121,9 +4121,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/chemically/block/RawNickelBlock.java",
-          "src/main/resources/assets/chemically/models/item/raw_nickel_block.json",
+          "src/main/resources/assets/chemically/models/block/raw_nickel_block.json",
           "src/main/resources/assets/chemically/blockstates/raw_nickel_block.json",
-          "src/main/resources/assets/chemically/models/block/raw_nickel_block.json"
+          "src/main/resources/assets/chemically/models/item/raw_nickel_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -4137,10 +4137,10 @@
       "registry_name": "raw_silver_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/block/raw_silver_block.json",
-          "src/main/java/net/mcreator/chemically/block/RawSilverBlockBlock.java",
           "src/main/resources/assets/chemically/models/item/raw_silver_block.json",
-          "src/main/resources/assets/chemically/blockstates/raw_silver_block.json"
+          "src/main/resources/assets/chemically/blockstates/raw_silver_block.json",
+          "src/main/java/net/mcreator/chemically/block/RawSilverBlockBlock.java",
+          "src/main/resources/assets/chemically/models/block/raw_silver_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -4154,10 +4154,10 @@
       "registry_name": "chiseled_stone_brick_pillar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/ChiseledStoneBrickPillarBlock.java",
-          "src/main/resources/assets/chemically/models/block/chiseled_stone_brick_pillar.json",
           "src/main/resources/assets/chemically/models/item/chiseled_stone_brick_pillar.json",
-          "src/main/resources/assets/chemically/blockstates/chiseled_stone_brick_pillar.json"
+          "src/main/resources/assets/chemically/blockstates/chiseled_stone_brick_pillar.json",
+          "src/main/java/net/mcreator/chemically/block/ChiseledStoneBrickPillarBlock.java",
+          "src/main/resources/assets/chemically/models/block/chiseled_stone_brick_pillar.json"
         ]
       }
     },
@@ -4240,8 +4240,8 @@
         "files": [
           "src/main/resources/assets/chemically/models/item/obsidian_runes.json",
           "src/main/java/net/mcreator/chemically/block/ObsidianRunesBlock.java",
-          "src/main/resources/assets/chemically/blockstates/obsidian_runes.json",
-          "src/main/resources/assets/chemically/models/block/obsidian_runes.json"
+          "src/main/resources/assets/chemically/models/block/obsidian_runes.json",
+          "src/main/resources/assets/chemically/blockstates/obsidian_runes.json"
         ]
       }
     },
@@ -4254,10 +4254,10 @@
       "registry_name": "stone_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/stone_tiles.json",
-          "src/main/resources/assets/chemically/models/item/stone_tiles.json",
           "src/main/java/net/mcreator/chemically/block/StoneTilesBlock.java",
-          "src/main/resources/assets/chemically/models/block/stone_tiles.json"
+          "src/main/resources/assets/chemically/blockstates/stone_tiles.json",
+          "src/main/resources/assets/chemically/models/block/stone_tiles.json",
+          "src/main/resources/assets/chemically/models/item/stone_tiles.json"
         ]
       }
     },
@@ -4270,9 +4270,9 @@
       "registry_name": "stone_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/stone_pillar.json",
-          "src/main/java/net/mcreator/chemically/block/StonePillarBlock.java",
           "src/main/resources/assets/chemically/models/block/stone_pillar.json",
+          "src/main/java/net/mcreator/chemically/block/StonePillarBlock.java",
+          "src/main/resources/assets/chemically/models/item/stone_pillar.json",
           "src/main/resources/assets/chemically/blockstates/stone_pillar.json"
         ]
       }
@@ -4303,10 +4303,10 @@
       "registry_name": "chiseled_endstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/chiseled_endstone.json",
           "src/main/java/net/mcreator/chemically/block/ChiseledEndstoneBlock.java",
+          "src/main/resources/assets/chemically/models/block/chiseled_endstone.json",
           "src/main/resources/assets/chemically/models/item/chiseled_endstone.json",
-          "src/main/resources/assets/chemically/models/block/chiseled_endstone.json"
+          "src/main/resources/assets/chemically/blockstates/chiseled_endstone.json"
         ]
       }
     },
@@ -4319,9 +4319,9 @@
       "registry_name": "raw_aluminum_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/RawAluminumBlockBlock.java",
-          "src/main/resources/assets/chemically/blockstates/raw_aluminum_block.json",
           "src/main/resources/assets/chemically/models/block/raw_aluminum_block.json",
+          "src/main/resources/assets/chemically/blockstates/raw_aluminum_block.json",
+          "src/main/java/net/mcreator/chemically/block/RawAluminumBlockBlock.java",
           "src/main/resources/assets/chemically/models/item/raw_aluminum_block.json"
         ]
       },
@@ -4364,8 +4364,8 @@
       "registry_name": "polyvinyl_chloride",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/PolyvinylChlorideItem.java",
-          "src/main/resources/assets/chemically/models/item/polyvinyl_chloride.json"
+          "src/main/resources/assets/chemically/models/item/polyvinyl_chloride.json",
+          "src/main/java/net/mcreator/chemically/item/PolyvinylChlorideItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -4393,8 +4393,8 @@
       "registry_name": "rubber",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/RubberItem.java",
-          "src/main/resources/assets/chemically/models/item/rubber.json"
+          "src/main/resources/assets/chemically/models/item/rubber.json",
+          "src/main/java/net/mcreator/chemically/item/RubberItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -4408,8 +4408,8 @@
       "registry_name": "sulfur",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/SulfurItem.java",
-          "src/main/resources/assets/chemically/models/item/sulfur.json"
+          "src/main/resources/assets/chemically/models/item/sulfur.json",
+          "src/main/java/net/mcreator/chemically/item/SulfurItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -4437,8 +4437,8 @@
       "registry_name": "advanced_logic_circuit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/advanced_logic_circuit.json",
-          "src/main/java/net/mcreator/chemically/item/AdvancedLogicCircuitItem.java"
+          "src/main/java/net/mcreator/chemically/item/AdvancedLogicCircuitItem.java",
+          "src/main/resources/assets/chemically/models/item/advanced_logic_circuit.json"
         ]
       }
     },
@@ -4451,8 +4451,8 @@
       "registry_name": "advanced_computation_circuit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/AdvancedComputationCircuitItem.java",
-          "src/main/resources/assets/chemically/models/item/advanced_computation_circuit.json"
+          "src/main/resources/assets/chemically/models/item/advanced_computation_circuit.json",
+          "src/main/java/net/mcreator/chemically/item/AdvancedComputationCircuitItem.java"
         ]
       }
     },
@@ -4556,9 +4556,9 @@
       "registry_name": "launch_pad",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chemically/models/block/launch_pad.json",
           "src/main/resources/assets/chemically/models/item/launch_pad.json",
           "src/main/resources/assets/chemically/blockstates/launch_pad.json",
-          "src/main/resources/assets/chemically/models/block/launch_pad.json",
           "src/main/java/net/mcreator/chemically/block/LaunchPadBlock.java",
           "src/main/java/net/mcreator/chemically/block/entity/LaunchPadBlockEntity.java"
         ]
@@ -4645,13 +4645,13 @@
       "registry_name": "purple_tulip",
       "metadata": {
         "files": [
-          "src/main/resources/data/chemically/forge/biome_modifier/purple_tulip_biome_modifier.json",
-          "src/main/resources/assets/chemically/models/block/purple_tulip.json",
           "src/main/resources/assets/chemically/models/item/purple_tulip.json",
-          "src/main/resources/data/chemically/worldgen/placed_feature/purple_tulip.json",
           "src/main/java/net/mcreator/chemically/block/PurpleTulipBlock.java",
+          "src/main/resources/assets/chemically/models/block/purple_tulip.json",
+          "src/main/resources/data/chemically/worldgen/configured_feature/purple_tulip.json",
           "src/main/resources/assets/chemically/blockstates/purple_tulip.json",
-          "src/main/resources/data/chemically/worldgen/configured_feature/purple_tulip.json"
+          "src/main/resources/data/chemically/worldgen/placed_feature/purple_tulip.json",
+          "src/main/resources/data/chemically/forge/biome_modifier/purple_tulip_biome_modifier.json"
         ]
       }
     },
@@ -4676,8 +4676,8 @@
       "registry_name": "steel_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/steel_rod.json",
-          "src/main/java/net/mcreator/chemically/item/SteelRodItem.java"
+          "src/main/java/net/mcreator/chemically/item/SteelRodItem.java",
+          "src/main/resources/assets/chemically/models/item/steel_rod.json"
         ]
       }
     },
@@ -4690,8 +4690,8 @@
       "registry_name": "nickel_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/nickel_ingot.json",
-          "src/main/java/net/mcreator/chemically/item/NickelIngotItem.java"
+          "src/main/java/net/mcreator/chemically/item/NickelIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/nickel_ingot.json"
         ]
       },
       "path": "~/Chemistry"
@@ -4778,8 +4778,8 @@
       "registry_name": "raw_lead_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/raw_lead_item.json",
-          "src/main/java/net/mcreator/chemically/item/RawLeadItemItem.java"
+          "src/main/java/net/mcreator/chemically/item/RawLeadItemItem.java",
+          "src/main/resources/assets/chemically/models/item/raw_lead_item.json"
         ]
       },
       "path": "~/Chemistry"
@@ -4808,8 +4808,8 @@
       "registry_name": "raw_aluminum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/raw_aluminum.json",
-          "src/main/java/net/mcreator/chemically/item/RawAluminumItem.java"
+          "src/main/java/net/mcreator/chemically/item/RawAluminumItem.java",
+          "src/main/resources/assets/chemically/models/item/raw_aluminum.json"
         ]
       },
       "path": "~/Chemistry"
@@ -4823,8 +4823,8 @@
       "registry_name": "aluminum_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/aluminum_pickaxe.json",
-          "src/main/java/net/mcreator/chemically/item/AluminumPickaxeItem.java"
+          "src/main/java/net/mcreator/chemically/item/AluminumPickaxeItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminum_pickaxe.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -4838,8 +4838,8 @@
       "registry_name": "aluminum_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/AluminumAxeItem.java",
-          "src/main/resources/assets/chemically/models/item/aluminum_axe.json"
+          "src/main/resources/assets/chemically/models/item/aluminum_axe.json",
+          "src/main/java/net/mcreator/chemically/item/AluminumAxeItem.java"
         ]
       },
       "path": "~/Filler Tools"
@@ -4883,8 +4883,8 @@
       "registry_name": "aluminum_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/AluminumHoeItem.java",
-          "src/main/resources/assets/chemically/models/item/aluminum_hoe.json"
+          "src/main/resources/assets/chemically/models/item/aluminum_hoe.json",
+          "src/main/java/net/mcreator/chemically/item/AluminumHoeItem.java"
         ]
       },
       "path": "~/Filler Tools"
@@ -4971,8 +4971,8 @@
           "src/main/resources/assets/chemically/models/item/aluminum_armor_leggings.json",
           "src/main/java/net/mcreator/chemically/item/AluminumArmorItem.java",
           "src/main/resources/assets/chemically/models/item/aluminum_armor_chestplate.json",
-          "src/main/resources/assets/chemically/models/item/aluminum_armor_boots.json",
-          "src/main/resources/assets/chemically/models/item/aluminum_armor_helmet.json"
+          "src/main/resources/assets/chemically/models/item/aluminum_armor_helmet.json",
+          "src/main/resources/assets/chemically/models/item/aluminum_armor_boots.json"
         ]
       },
       "path": "~/Filler Tools"
@@ -5057,9 +5057,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/blockstates/silver_block.json",
-          "src/main/resources/assets/chemically/models/block/silver_block.json",
+          "src/main/java/net/mcreator/chemically/block/SilverBlockBlock.java",
           "src/main/resources/assets/chemically/models/item/silver_block.json",
-          "src/main/java/net/mcreator/chemically/block/SilverBlockBlock.java"
+          "src/main/resources/assets/chemically/models/block/silver_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5073,8 +5073,8 @@
       "registry_name": "saltpeter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/saltpeter.json",
-          "src/main/java/net/mcreator/chemically/item/SaltpeterItem.java"
+          "src/main/java/net/mcreator/chemically/item/SaltpeterItem.java",
+          "src/main/resources/assets/chemically/models/item/saltpeter.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5136,10 +5136,10 @@
       "registry_name": "aluminum_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/aluminum_block.json",
-          "src/main/resources/assets/chemically/blockstates/aluminum_block.json",
           "src/main/resources/assets/chemically/models/block/aluminum_block.json",
-          "src/main/java/net/mcreator/chemically/block/AluminumBlockBlock.java"
+          "src/main/java/net/mcreator/chemically/block/AluminumBlockBlock.java",
+          "src/main/resources/assets/chemically/blockstates/aluminum_block.json",
+          "src/main/resources/assets/chemically/models/item/aluminum_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5153,10 +5153,10 @@
       "registry_name": "aquamarine_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/AquamarineBlockBlock.java",
+          "src/main/resources/assets/chemically/models/block/aquamarine_block.json",
           "src/main/resources/assets/chemically/models/item/aquamarine_block.json",
           "src/main/resources/assets/chemically/blockstates/aquamarine_block.json",
-          "src/main/resources/assets/chemically/models/block/aquamarine_block.json"
+          "src/main/java/net/mcreator/chemically/block/AquamarineBlockBlock.java"
         ]
       }
     },
@@ -5169,8 +5169,8 @@
       "registry_name": "aquamarine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/AquamarineItem.java",
-          "src/main/resources/assets/chemically/models/item/aquamarine.json"
+          "src/main/resources/assets/chemically/models/item/aquamarine.json",
+          "src/main/java/net/mcreator/chemically/item/AquamarineItem.java"
         ]
       }
     },
@@ -5183,10 +5183,10 @@
       "registry_name": "asphalt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/AsphaltBlock.java",
           "src/main/resources/assets/chemically/blockstates/asphalt.json",
           "src/main/resources/assets/chemically/models/item/asphalt.json",
-          "src/main/resources/assets/chemically/models/block/asphalt.json"
+          "src/main/resources/assets/chemically/models/block/asphalt.json",
+          "src/main/java/net/mcreator/chemically/block/AsphaltBlock.java"
         ]
       }
     },
@@ -5214,9 +5214,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/chemically/block/JadeBlockBlock.java",
-          "src/main/resources/assets/chemically/blockstates/jade_block.json",
           "src/main/resources/assets/chemically/models/item/jade_block.json",
-          "src/main/resources/assets/chemically/models/block/jade_block.json"
+          "src/main/resources/assets/chemically/models/block/jade_block.json",
+          "src/main/resources/assets/chemically/blockstates/jade_block.json"
         ]
       }
     },
@@ -5229,10 +5229,10 @@
       "registry_name": "steel_factory_floor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/steel_factory_floor.json",
           "src/main/java/net/mcreator/chemically/block/SteelFactoryFloorBlock.java",
-          "src/main/resources/assets/chemically/models/block/steel_factory_floor.json",
-          "src/main/resources/assets/chemically/blockstates/steel_factory_floor.json"
+          "src/main/resources/assets/chemically/models/item/steel_factory_floor.json",
+          "src/main/resources/assets/chemically/blockstates/steel_factory_floor.json",
+          "src/main/resources/assets/chemically/models/block/steel_factory_floor.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5246,8 +5246,8 @@
       "registry_name": "iodine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/iodine.json",
-          "src/main/java/net/mcreator/chemically/item/IodineItem.java"
+          "src/main/java/net/mcreator/chemically/item/IodineItem.java",
+          "src/main/resources/assets/chemically/models/item/iodine.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5261,8 +5261,8 @@
       "registry_name": "gold_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/GoldRodItem.java",
-          "src/main/resources/assets/chemically/models/item/gold_rod.json"
+          "src/main/resources/assets/chemically/models/item/gold_rod.json",
+          "src/main/java/net/mcreator/chemically/item/GoldRodItem.java"
         ]
       }
     },
@@ -5275,10 +5275,10 @@
       "registry_name": "laboratory_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/LaboratoryBlockBlock.java",
           "src/main/resources/assets/chemically/models/item/laboratory_block.json",
-          "src/main/resources/assets/chemically/models/block/laboratory_block.json",
-          "src/main/resources/assets/chemically/blockstates/laboratory_block.json"
+          "src/main/resources/assets/chemically/blockstates/laboratory_block.json",
+          "src/main/java/net/mcreator/chemically/block/LaboratoryBlockBlock.java",
+          "src/main/resources/assets/chemically/models/block/laboratory_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5292,10 +5292,10 @@
       "registry_name": "steel_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chemically/models/item/steel_block.json",
           "src/main/resources/assets/chemically/models/block/steel_block.json",
-          "src/main/java/net/mcreator/chemically/block/SteelBlockBlock.java",
           "src/main/resources/assets/chemically/blockstates/steel_block.json",
-          "src/main/resources/assets/chemically/models/item/steel_block.json"
+          "src/main/java/net/mcreator/chemically/block/SteelBlockBlock.java"
         ]
       },
       "path": "~/Chemistry"
@@ -5324,9 +5324,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/blockstates/onyx_block.json",
-          "src/main/resources/assets/chemically/models/block/onyx_block.json",
+          "src/main/java/net/mcreator/chemically/block/OnyxBlockBlock.java",
           "src/main/resources/assets/chemically/models/item/onyx_block.json",
-          "src/main/java/net/mcreator/chemically/block/OnyxBlockBlock.java"
+          "src/main/resources/assets/chemically/models/block/onyx_block.json"
         ]
       }
     },
@@ -5339,8 +5339,8 @@
       "registry_name": "nitrogen",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/nitrogen.json",
-          "src/main/java/net/mcreator/chemically/item/NitrogenItem.java"
+          "src/main/java/net/mcreator/chemically/item/NitrogenItem.java",
+          "src/main/resources/assets/chemically/models/item/nitrogen.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5354,8 +5354,8 @@
       "registry_name": "pseudoephedrine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/pseudoephedrine.json",
-          "src/main/java/net/mcreator/chemically/item/PseudoephedrineItem.java"
+          "src/main/java/net/mcreator/chemically/item/PseudoephedrineItem.java",
+          "src/main/resources/assets/chemically/models/item/pseudoephedrine.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5398,10 +5398,10 @@
       "registry_name": "ruby_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/RubyBlockBlock.java",
-          "src/main/resources/assets/chemically/blockstates/ruby_block.json",
           "src/main/resources/assets/chemically/models/item/ruby_block.json",
-          "src/main/resources/assets/chemically/models/block/ruby_block.json"
+          "src/main/resources/assets/chemically/models/block/ruby_block.json",
+          "src/main/resources/assets/chemically/blockstates/ruby_block.json",
+          "src/main/java/net/mcreator/chemically/block/RubyBlockBlock.java"
         ]
       }
     },
@@ -5414,13 +5414,13 @@
       "registry_name": "sulfur_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/chemically/worldgen/placed_feature/sulfur_ore.json",
-          "src/main/resources/data/chemically/forge/biome_modifier/sulfur_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/chemically/block/SulfurOreBlock.java",
           "src/main/resources/data/chemically/worldgen/configured_feature/sulfur_ore.json",
+          "src/main/resources/data/chemically/worldgen/placed_feature/sulfur_ore.json",
+          "src/main/java/net/mcreator/chemically/block/SulfurOreBlock.java",
+          "src/main/resources/assets/chemically/models/block/sulfur_ore.json",
           "src/main/resources/assets/chemically/models/item/sulfur_ore.json",
-          "src/main/resources/assets/chemically/blockstates/sulfur_ore.json",
-          "src/main/resources/assets/chemically/models/block/sulfur_ore.json"
+          "src/main/resources/data/chemically/forge/biome_modifier/sulfur_ore_biome_modifier.json",
+          "src/main/resources/assets/chemically/blockstates/sulfur_ore.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5434,8 +5434,8 @@
       "registry_name": "meth",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/MethItem.java",
-          "src/main/resources/assets/chemically/models/item/meth.json"
+          "src/main/resources/assets/chemically/models/item/meth.json",
+          "src/main/java/net/mcreator/chemically/item/MethItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -5449,10 +5449,10 @@
       "registry_name": "sulfur_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/sulfur_block.json",
-          "src/main/java/net/mcreator/chemically/block/SulfurBlockBlock.java",
           "src/main/resources/assets/chemically/blockstates/sulfur_block.json",
-          "src/main/resources/assets/chemically/models/block/sulfur_block.json"
+          "src/main/java/net/mcreator/chemically/block/SulfurBlockBlock.java",
+          "src/main/resources/assets/chemically/models/block/sulfur_block.json",
+          "src/main/resources/assets/chemically/models/item/sulfur_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5496,8 +5496,8 @@
       "registry_name": "ephedra",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/EphedraItem.java",
-          "src/main/resources/assets/chemically/models/item/ephedra.json"
+          "src/main/resources/assets/chemically/models/item/ephedra.json",
+          "src/main/java/net/mcreator/chemically/item/EphedraItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -5511,8 +5511,8 @@
       "registry_name": "ephedra_seeds",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/EphedraSeedsItem.java",
-          "src/main/resources/assets/chemically/models/item/ephedra_seeds.json"
+          "src/main/resources/assets/chemically/models/item/ephedra_seeds.json",
+          "src/main/java/net/mcreator/chemically/item/EphedraSeedsItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -5555,8 +5555,8 @@
       "registry_name": "biomass",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/BiomassItem.java",
-          "src/main/resources/assets/chemically/models/item/biomass.json"
+          "src/main/resources/assets/chemically/models/item/biomass.json",
+          "src/main/java/net/mcreator/chemically/item/BiomassItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -5584,8 +5584,8 @@
       "registry_name": "aluminosilicate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/aluminosilicate.json",
-          "src/main/java/net/mcreator/chemically/item/AluminosilicateItem.java"
+          "src/main/java/net/mcreator/chemically/item/AluminosilicateItem.java",
+          "src/main/resources/assets/chemically/models/item/aluminosilicate.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5599,17 +5599,17 @@
       "registry_name": "aluminum_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/block/aluminum_door_top_left.json",
-          "src/main/java/net/mcreator/chemically/block/AluminumDoorBlock.java",
-          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_right.json",
-          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_right_open.json",
           "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_left.json",
-          "src/main/resources/assets/chemically/models/item/aluminum_door.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_right.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_left_open.json",
           "src/main/resources/assets/chemically/models/block/aluminum_door_top_right.json",
-          "src/main/resources/assets/chemically/blockstates/aluminum_door.json",
           "src/main/resources/assets/chemically/models/block/aluminum_door_top_left_open.json",
+          "src/main/java/net/mcreator/chemically/block/AluminumDoorBlock.java",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_top_left.json",
           "src/main/resources/assets/chemically/models/block/aluminum_door_top_right_open.json",
-          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_left_open.json"
+          "src/main/resources/assets/chemically/models/item/aluminum_door.json",
+          "src/main/resources/assets/chemically/models/block/aluminum_door_bottom_right_open.json",
+          "src/main/resources/assets/chemically/blockstates/aluminum_door.json"
         ]
       }
     },
@@ -5624,8 +5624,8 @@
         "files": [
           "src/main/java/net/mcreator/chemically/block/CautionBlock.java",
           "src/main/resources/assets/chemically/blockstates/caution.json",
-          "src/main/resources/assets/chemically/models/item/caution.json",
-          "src/main/resources/assets/chemically/models/block/caution.json"
+          "src/main/resources/assets/chemically/models/block/caution.json",
+          "src/main/resources/assets/chemically/models/item/caution.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5639,10 +5639,10 @@
       "registry_name": "red_caution",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/red_caution.json",
           "src/main/resources/assets/chemically/models/item/red_caution.json",
-          "src/main/java/net/mcreator/chemically/block/RedCautionBlock.java",
-          "src/main/resources/assets/chemically/models/block/red_caution.json"
+          "src/main/resources/assets/chemically/blockstates/red_caution.json",
+          "src/main/resources/assets/chemically/models/block/red_caution.json",
+          "src/main/java/net/mcreator/chemically/block/RedCautionBlock.java"
         ]
       },
       "path": "~/Chemistry"
@@ -5656,8 +5656,8 @@
       "registry_name": "bronze_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/bronze_ingot.json",
-          "src/main/java/net/mcreator/chemically/item/BronzeIngotItem.java"
+          "src/main/java/net/mcreator/chemically/item/BronzeIngotItem.java",
+          "src/main/resources/assets/chemically/models/item/bronze_ingot.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5671,10 +5671,10 @@
       "registry_name": "bronze_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/blockstates/bronze_block.json",
           "src/main/resources/assets/chemically/models/block/bronze_block.json",
+          "src/main/java/net/mcreator/chemically/block/BronzeBlockBlock.java",
           "src/main/resources/assets/chemically/models/item/bronze_block.json",
-          "src/main/java/net/mcreator/chemically/block/BronzeBlockBlock.java"
+          "src/main/resources/assets/chemically/blockstates/bronze_block.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5688,8 +5688,8 @@
       "registry_name": "nitrate_dust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemically/models/item/nitrate_dust.json",
-          "src/main/java/net/mcreator/chemically/item/NitrateDustItem.java"
+          "src/main/java/net/mcreator/chemically/item/NitrateDustItem.java",
+          "src/main/resources/assets/chemically/models/item/nitrate_dust.json"
         ]
       },
       "path": "~/Chemistry"
@@ -5703,8 +5703,8 @@
       "registry_name": "thermite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/ThermiteItem.java",
-          "src/main/resources/assets/chemically/models/item/thermite.json"
+          "src/main/resources/assets/chemically/models/item/thermite.json",
+          "src/main/java/net/mcreator/chemically/item/ThermiteItem.java"
         ]
       },
       "path": "~/Chemistry"
@@ -5719,8 +5719,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/chemically/models/item/thermite_grenad.json",
-          "src/main/resources/assets/chemically/models/item/thermite_grenad_0.json",
-          "src/main/java/net/mcreator/chemically/item/ThermiteGrenadItem.java"
+          "src/main/java/net/mcreator/chemically/item/ThermiteGrenadItem.java",
+          "src/main/resources/assets/chemically/models/item/thermite_grenad_0.json"
         ]
       },
       "path": "~/Functional Tools"
@@ -5755,10 +5755,10 @@
       "registry_name": "scanner",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chemically/models/item/scanner_1.json",
           "src/main/resources/assets/chemically/models/item/scanner_0.json",
-          "src/main/java/net/mcreator/chemically/item/SCANNERItem.java",
           "src/main/resources/assets/chemically/models/item/scanner.json",
-          "src/main/resources/assets/chemically/models/item/scanner_1.json"
+          "src/main/java/net/mcreator/chemically/item/SCANNERItem.java"
         ]
       },
       "path": "~/Functional Tools"
@@ -5793,8 +5793,8 @@
       "registry_name": "engine_piston",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/item/EnginePistonItem.java",
-          "src/main/resources/assets/chemically/models/item/engine_piston.json"
+          "src/main/resources/assets/chemically/models/item/engine_piston.json",
+          "src/main/java/net/mcreator/chemically/item/EnginePistonItem.java"
         ]
       }
     },
@@ -5837,11 +5837,11 @@
       "registry_name": "server",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemically/block/ServerBlock.java",
-          "src/main/java/net/mcreator/chemically/block/entity/ServerBlockEntity.java",
-          "src/main/resources/assets/chemically/models/item/server.json",
           "src/main/resources/assets/chemically/models/block/server.json",
-          "src/main/resources/assets/chemically/blockstates/server.json"
+          "src/main/resources/assets/chemically/blockstates/server.json",
+          "src/main/resources/assets/chemically/models/item/server.json",
+          "src/main/java/net/mcreator/chemically/block/entity/ServerBlockEntity.java",
+          "src/main/java/net/mcreator/chemically/block/ServerBlock.java"
         ]
       }
     },
