@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:UraniumOre"
+      },
+      {
+        "value": "CUSTOM:UraniumBlock"
+      },
+      {
+        "value": "CUSTOM:UraniumDeepslateOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumBlock"
+      },
+      {
+        "value": "CUSTOM:LeadBlock"
+      },
+      {
+        "value": "CUSTOM:RawLead"
+      },
+      {
+        "value": "CUSTOM:LeadOre"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "radiationresistant",
+    "namespace": "mod"
+  }
+}

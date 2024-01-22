@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "g_lamp",
+        "1": "g_lamp"
+      },
+      "name": "default"
+    },
+    "g_lamp_on": {
+      "map": {
+        "0": "g_lamp_on",
+        "1": "g_lamp_on"
+      },
+      "name": "g_lamp_on"
+    }
+  }
+}

@@ -17,6 +17,9 @@ import net.mcreator.chemically.block.entity.PowerCellBlockEntity;
 import net.mcreator.chemically.block.entity.LpmdsBlockEntity;
 import net.mcreator.chemically.block.entity.LaunchPadBlockEntity;
 import net.mcreator.chemically.block.entity.HydraulicPressBlockEntity;
+import net.mcreator.chemically.block.entity.GreenLampOnBlockEntity;
+import net.mcreator.chemically.block.entity.GreenLampBlockEntity;
+import net.mcreator.chemically.block.entity.ElectromagneticFieldGeneratorBlockEntity;
 import net.mcreator.chemically.block.entity.ConveyerBlockEntity;
 import net.mcreator.chemically.block.entity.AcceleratorBlockEntity;
 import net.mcreator.chemically.ChemicallyMod;
@@ -28,9 +31,12 @@ public class ChemicallyModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> SINUSOIDAL_WAVE = register("sinusoidal_wave", ChemicallyModBlocks.SINUSOIDAL_WAVE, SinusoidalWaveBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> HYDRAULIC_PRESS = register("hydraulic_press", ChemicallyModBlocks.HYDRAULIC_PRESS, HydraulicPressBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> POWER_CELL = register("power_cell", ChemicallyModBlocks.POWER_CELL, PowerCellBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ELECTROMAGNETIC_FIELD_GENERATOR = register("electromagnetic_field_generator", ChemicallyModBlocks.ELECTROMAGNETIC_FIELD_GENERATOR, ElectromagneticFieldGeneratorBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ACCELERATOR = register("accelerator", ChemicallyModBlocks.ACCELERATOR, AcceleratorBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LAUNCH_PAD = register("launch_pad", ChemicallyModBlocks.LAUNCH_PAD, LaunchPadBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LPMDS = register("lpmds", ChemicallyModBlocks.LPMDS, LpmdsBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GREEN_LAMP = register("green_lamp", ChemicallyModBlocks.GREEN_LAMP, GreenLampBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> GREEN_LAMP_ON = register("green_lamp_on", ChemicallyModBlocks.GREEN_LAMP_ON, GreenLampOnBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

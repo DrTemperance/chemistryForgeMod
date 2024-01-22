@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chemically:block/green_lamp_on"
+    },
+    "facing=east": {
+      "model": "chemically:block/green_lamp_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chemically:block/green_lamp_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chemically:block/green_lamp_on",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "chemically:block/green_lamp_on",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "chemically:block/green_lamp_on",
+      "x": 90
+    }
+  }
+}

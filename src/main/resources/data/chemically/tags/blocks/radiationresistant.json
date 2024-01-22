@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "chemically:uranium_ore",
+    "chemically:uranium_block",
+    "chemically:uranium_deepslate_ore",
+    "chemically:raw_uranium_block",
+    "chemically:lead_block",
+    "chemically:raw_lead_block",
+    "chemically:lead_ore",
+    "minecraft:bedrock"
+  ]
+}

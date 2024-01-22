@@ -27,6 +27,7 @@ public class ChemicallyModTabs {
 				tabData.accept(ChemicallyModItems.HYDROGEN.get());
 				tabData.accept(ChemicallyModItems.NITROGEN.get());
 				tabData.accept(ChemicallyModItems.AMMONIA.get());
+				tabData.accept(ChemicallyModItems.HAT.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> SOLIDS = REGISTRY.register("solids",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chemically.solids")).icon(() -> new ItemStack(Items.IRON_INGOT)).displayItems((parameters, tabData) -> {
@@ -135,6 +136,8 @@ public class ChemicallyModTabs {
 				tabData.accept(ChemicallyModBlocks.LEAD_ORE.get().asItem());
 				tabData.accept(ChemicallyModBlocks.URANIUM_DEEPSLATE_ORE.get().asItem());
 				tabData.accept(ChemicallyModBlocks.URANIUM_ORE.get().asItem());
+				tabData.accept(ChemicallyModBlocks.GREEN_LAMP.get().asItem());
+				tabData.accept(ChemicallyModItems.ELECTRIC_LIGHTER.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> COMPOUNDS_AND_ALLOYS = REGISTRY.register("compounds_and_alloys",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chemically.compounds_and_alloys")).icon(() -> new ItemStack(ChemicallyModItems.STEEL_INGOT.get())).displayItems((parameters, tabData) -> {
@@ -182,6 +185,11 @@ public class ChemicallyModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(ChemicallyModBlocks.FRAMED_BRICKS.get().asItem());
+			tabData.accept(ChemicallyModBlocks.BORDERED_BRICKS.get().asItem());
+		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ChemicallyModItems.URANIUM_ARMOR_HELMET.get());
